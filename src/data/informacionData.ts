@@ -205,30 +205,30 @@ export const dataImpacto = [
   },
   {
     titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Yucatán',
-    link: 'https://sil.gobernacion.gob.mx/Archivos/Documentos/2018/04/asun_3695597_20180411_1521059640.pdf',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/166608/yucatan_2016_1116.pdf',
     año: 2016,
     documento: 'Índice Nacional de Ciencia 2015, Yucatán',
     tipoUsuario: 'Gubernamental'
   },
   {
     titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Zacatecas',
-    link: 'http://www.diputadospan.mx/DiputadosPAN/layouts/Noticia.aspx?tipo=2&idnoticia=5449&id=5449',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/175921/zacatecas_2016_1116.pdf',
     año: 2016,
     documento: 'Índice Nacional de Ciencia 2015, Zacatecas',
     tipoUsuario: 'Gubernamental'
   },
   {
-    titulo: 'INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE ADICIONA LA FRACCIÓN XXXV AL ARTÍCULO 5 DE LA LEY FEDERAL DE PROTECCIÓN A LA PROPIEDAD INDUSTRIAL',
+    titulo: '"Universidad Autónoma “Benito Juárez” de Oaxaca. Índice Nacional de Ciencia, Tecnología e Innovación 2015',
     link: 'https://sil.gobernacion.gob.mx/Archivos/Documentos/2022/11/asun_4436753_20221109_1664902732.pdf',
-    año: 2022,
-    documento: 'Adición fracción XXXV Ley Propiedad Industrial',
-    tipoUsuario: 'Legislativo'
+    año: 2016,
+    documento: 'Índice Nacional de Ciencia 2015, UABJO',
+    tipoUsuario: 'Privado/Académico'
   },
   {
-    titulo: 'INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE ADICIONAN LA FRACCIÓN IX AL ARTÍCULO 2, LA FRACCIÓN XXI AL ARTÍCULO 12, Y LA FRACCIÓN IX AL ARTÍCULO 13, DE LA LEY DE CIENCIA Y TECNOLOGÍA',
-    link: 'https://www.senado.gob.mx/66/gaceta_del_senado/documento/129516',
-    año: 2022,
-    documento: 'Adiciones a Ley de Ciencia y Tecnología',
-    tipoUsuario: 'Legislativo'
+    titulo: 'Toche, N. (2016). En busca de un vínculo con la ciudadanía.',
+    link: 'https://www.eleconomista.com.mx/arteseideas/En-busca-de-un-vinculo-con-la-ciudadania-20160125-0031.html',
+    año: 2016,
+    documento: 'En busca de un vínculo con la ciudadanía',
+    tipoUsuario: 'Privado/Académico'
   }
 ];

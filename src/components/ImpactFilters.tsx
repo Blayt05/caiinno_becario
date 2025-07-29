@@ -88,8 +88,8 @@ const documentos = [
   'Índice Nacional de Ciencia 2015, Veracruz',
   'Índice Nacional de Ciencia 2015, Yucatán',
   'Índice Nacional de Ciencia 2015, Zacatecas',
-  'Adición fracción XXXV Ley Propiedad Industrial',
-  'Adiciones a Ley de Ciencia y Tecnología',
+  'Índice Nacional de Ciencia 2015, UABJO',
+  'Índice Nacional de Ciencia 2015, En busca de un vínculo con la ciudadanía',
 
 ];
 
