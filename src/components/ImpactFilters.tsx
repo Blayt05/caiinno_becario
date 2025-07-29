@@ -57,7 +57,7 @@ const años = [
   { value: '2022', label: '2022' },
 ];
 const documentos = [
-  'Mujeres del Pacífico',
+  'Índice Nacional de Ciencia, Tecnología e Innovación 2015',
   'Ciencia en Nayarit',
   'Competitividad Tlaxcala',
   'Medición Innovación',
