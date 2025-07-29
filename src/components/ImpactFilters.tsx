@@ -57,11 +57,11 @@ const años = [
   { value: '2022', label: '2022' },
 ];
 const documentos = [
-  'Índice Nacional de Ciencia, Tecnología e Innovación 2015',
-  'Ciencia en Nayarit',
-  'Competitividad Tlaxcala',
-  'Medición Innovación',
-  'Innovación en comercio exterior SLP',
+  'Índice Nacional de Ciencia 2015, Aguascalientes',
+  'Índice Nacional de Ciencia 2015, Baja California',
+  'Índice Nacional de Ciencia 2015, Baja California Sur',
+  'Índice Nacional de Ciencia 2015, Campeche',
+  'Índice Nacional de Ciencia 2015, Chiapas',
   'Empowerment grupal',
   'La procédure d\'opposition au Mexique',
   'Diagnóstico Durango',

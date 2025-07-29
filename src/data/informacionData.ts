@@ -1,39 +1,39 @@
 
 export const dataImpacto = [
   {
-    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015",
-    link: "https://www.caiinno.org/wp-content/uploads/2016/01/INCTI-CAIINNO2015.pdf",
-    año: 2015,
-    documento: "Índice Nacional de Ciencia, Tecnología e Innovación 2015",
-    tipoUsuario: "Gubernamental"
-  },
-  {
-    titulo: "Ciencia en Nayarit, a 100 años de la creación del estado: antecedentes históricos, situación actual, retos y perspectivas:",
-    link: "https://www.revistaciencia.amc.edu.mx/images/revista/68_3/PDF/actualidad.pdf",
-    año: 2017,
-    documento: "Ciencia en Nayarit",
-    tipoUsuario: "Privado/Académico"
-  },
-  {
-    titulo: "La competitividad de la manufactura del sector autopartes en Tlaxcala: Modelo para el desarrollo:",
-    link: "http://mujeresdelpacifico.org/wp-content/uploads/2018/06/1er-Informe-MdP-ASELA-OAP.pdf",
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Aguascalientes",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/157921/aguascalientes_2016_1024.pdf",
     año: 2016,
-    documento: "Competitividad Tlaxcala",
+    documento: "Índice Nacional de Ciencia 2015, Aguascalientes",
     tipoUsuario: "Gubernamental"
   },
   {
-    titulo: "APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO:",
-    link: "http://mujeresdelpacifico.org/wp-content/uploads/2018/06/1er-Informe-MdP-ASELA-OAP.pdf",
-    año: 2015,
-    documento: "Medición Innovación",
-    tipoUsuario: "Privado/Académico"
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Baja California",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/157920/baja_california_2016_1024.pdf",
+    año: 2016,
+    documento: "Índice Nacional de Ciencia 2015, Baja California",
+    tipoUsuario: "Gubernamental"
   },
   {
-    titulo: "La innovación en el comercio exterior de San Luis Potosí:",
-    link: "https://dialnet.unirioja.es/descarga/articulo/6153679.pdf",
-    año: 2017,
-    documento: "Innovación en comercio exterior SLP",
-    tipoUsuario: "Privado/Académico"
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Baja California Sur",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/175892/baja_california_sur_2016_1116.pdf",
+    año: 2016,
+    documento: "Índice Nacional de Ciencia 2015, Baja California Sur",
+    tipoUsuario: "Gubernamental"
+  },
+  {
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Campeche",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/157923/campeche_2016_1024.pdf",
+    año: 2016,
+    documento: "Índice Nacional de Ciencia 2015, Campeche",
+    tipoUsuario: "Gubernamental"
+  },
+  {
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Chiapas",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/157924/chiapas_2016_1024.pdf",
+    año: 2016,
+    documento: "Índice Nacional de Ciencia 2015, Chiapas",
+    tipoUsuario: "Gubernamental"
   },
   {
     titulo: "Efecto del empowerment grupal en la proactividad. Un estudio empírico en equipos de I+D de Universidades Tamaulipecas:",
