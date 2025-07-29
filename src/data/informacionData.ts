@@ -36,45 +36,45 @@ export const dataImpacto = [
     tipoUsuario: "Gubernamental"
   },
   {
-    titulo: "Efecto del empowerment grupal en la proactividad. Un estudio empírico en equipos de I+D de Universidades Tamaulipecas:",
-    link: "https://recai.uaemex.mx/article/download/9010/8340/",
-    año: 2020,
-    documento: "Empowerment grupal",
-    tipoUsuario: "Privado/Académico"
-  },
-  {
-    titulo: "La procédure d'opposition au Mexique:",
-    link: "http://cpi.openum.ca/files/sites/66/CPI_29-1_202_nomen-vazquez.pdf",
-    año: 2017,
-    documento: "La procédure d\'opposition au Mexique",
-    tipoUsuario: "Internacional"
-  },
-  {
-    titulo: 'Diagnóstico de Ciencia, Tecnología e Innovación en el Estado de Durango. Utilizado por el Consejo de Ciencia y Tecnología del Estado de Durango',
-    link: 'https://www.cocyted.mx/EVENTOS/encuentro_inv_2018/3.DIAGNOSTICO_DE_CTI_EN_DURANGO_COCYTED.pdf',
-    año: 2018,
-    documento: 'Diagnóstico Durango',
-    tipoUsuario: 'Gubernamental'
-  },
-  {
-    titulo: 'Información económica y estatal de Jalisco. Utilizado por la Secretaría de Economía Federal',
-    link: 'https://www.gob.mx/cms/uploads/attachment/file/145365/jalisco_2016_0923.pdf',
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Chihuahua",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/175895/chihuahua_2016_1116.pdf",
     año: 2016,
-    documento: 'Información económica y estatal de Jalisco',
+    documento: "Índice Nacional de Ciencia 2015, Chihuahua",
+    tipoUsuario: "Gubernamental"
+  },
+  {
+    titulo: "Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Ciudad de México",
+    link: "https://www.gob.mx/cms/uploads/attachment/file/145357/ciudad_de_mexico_2016_0923.pdf",
+    año: 2016,
+    documento: "Índice Nacional de Ciencia 2015, Ciudad de México",
+    tipoUsuario: "Gubernamental"
+  },
+  {
+    titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Coahuila',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/175897/coahuila_2016_1116.pdf',
+    año: 2016,
+    documento: 'Índice Nacional de Ciencia 2015, Coahuila',
     tipoUsuario: 'Gubernamental'
   },
   {
-    titulo: 'Información económica y estatal de Puebla. Utilizado por la Secretaría de Economía Federal',
-    link: 'https://www.gob.mx/cms/uploads/attachment/file/281881/puebla_2017_12.1.pdf',
-    año: 2017,
-    documento: 'Información económica y estatal de Puebla',
+    titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Colima',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/145359/colima_2016_0923.pdf',
+    año: 2016,
+    documento: 'Índice Nacional de Ciencia 2015, Colima',
     tipoUsuario: 'Gubernamental'
   },
   {
-    titulo: 'Información económica y estatal de la Ciudad de México. Utilizado por la Secretaría de Economía Federal',
-    link: 'https://www.gob.mx/cms/uploads/attachment/file/194616/ciudad_de_mexico_2017_02.pdf',
-    año: 2017,
-    documento: 'Información económica y estatal de la CDMX',
+    titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Durango',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/175899/durango_2016_1116.pdf',
+    año: 2016,
+    documento: 'Índice Nacional de Ciencia 2015, Durango',
+    tipoUsuario: 'Gubernamental'
+  },
+  {
+    titulo: 'Secretaría de Economía. Índice Nacional de Ciencia, Tecnología e Innovación 2015. Información Económica Estatal - Estado de México',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/166588/estado_de_mexico_2016_1116.pdf',
+    año: 2016,
+    documento: 'Índice Nacional de Ciencia 2015, Estado de México',
     tipoUsuario: 'Gubernamental'
   },
   {
