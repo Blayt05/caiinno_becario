@@ -115,7 +115,7 @@ export default function Home() {
         </h2>
         <div className="w-full flex justify-center items-center">
           <Image
-            src="/¿QUÉ PRETENDEMOS_vE.png"
+            src="/¿QUÉ PRETENDEMOS_vS.png"
             alt="¿Qué pretendemos?"
             width={1400}
             height={250}
