@@ -285,7 +285,7 @@ export const dataImpacto = [
     link: 'https://cefp.gob.mx/transp/CEFP-CEFP-70-41-C-Estudio-PCF-041017.pdf',
     año: 2017,
     documento: 'Factores que inciden en la productividad de México',
-    tipoUsuario: 'Privado/Académico',
+    tipoUsuario: 'Gubernamental',
     tipoDoc : 1
   },
   {
@@ -294,6 +294,38 @@ export const dataImpacto = [
     año: 2017,
     documento: 'La innovación en el comercio exterior de San Luis Potosí',
     tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+   {
+    titulo: 'Centro de Estudios de las Finanzas Públicas de la Cámara de Diputados; Lic. José Alejandro Montemayor Montemayor. (2017). Factores que inciden en la productividad y competitividad en las entidades federativas de México',
+    link: 'https://cefp.gob.mx/transp/CEFP-CEFP-70-41-C-Estudio-PCF-041017.pdf',
+    año: 2017,
+    documento: 'Factores que inciden en la productividad de México',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Tolmamatl Michcol, J., Varela Loyola, J.A., Gallardo García, D. (2017). La competitividad de la manufactura del sector autopartes en Tlaxcala: Modelo para el desarrollo',
+    link: 'https://www.ecorfan.org/libros/BOOK_TX.pdf',
+    año: 2017,
+    documento: 'Manufactura del sector autopartes en Tlaxcala',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'M López López, M., Villarreal Peralta, E.M. (2017). APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+    link: 'https://www.uam.mx/altec2017/pdfs/ALTEC_2017_paper_109.pdf',
+    año: 2017,
+    documento: 'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado de Zacatecas. (2017). Programa especial de ciencia, tecnología e innovación del estado de Zacatecas 2017-2021',
+    link: 'https://pbr-sed.zacatecas.gob.mx/wp-content/uploads/2020/02/PECITI-2017-2021.pdf',
+    año: 2017,
+    documento: 'Programa especial de ciencia de Zacatecas 2017-2021',
+    tipoUsuario: 'Gubernamental',
     tipoDoc : 1
   }
 ];

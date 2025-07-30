@@ -103,7 +103,10 @@ const documentos = [
   'Análisis comparativo con referencia a la metodología de RIS3',
   'Minimonografía de Yucatán. Censos Económicos 2014 INEGI',
   'Factores que inciden en la productividad de México',
-  'La innovación en el comercio exterior de San Luis Potosí'
+  'La innovación en el comercio exterior de San Luis Potosí',
+  'Manufactura del sector autopartes en Tlaxcala',
+  'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+  'Programa especial de ciencia de Zacatecas 2017-2021',
 ];
 
   return (
