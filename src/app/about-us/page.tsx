@@ -38,7 +38,7 @@ export default function AboutUs() {
         <div className="w-full relative">
           <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
             <Image
-              src="/¿OUR PURPOSE_.png"
+              src="/¿QUÉ PRENTEDEMOS_VE.png"
               alt="Our Aim"
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
@@ -50,7 +50,7 @@ export default function AboutUs() {
         <div className="w-full relative mt-12">
           <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
             <Image
-              src="/¿HOW DO WE DO IT_.png"
+              src="/COMOLOHACEMOS_VE.png"
               alt="How We Achieve It"
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
