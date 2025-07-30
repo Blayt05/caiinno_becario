@@ -279,5 +279,13 @@ export const dataImpacto = [
     documento: 'Minimonografía de Yucatán. Censos Económicos 2014 INEGI',
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
+  },
+  {
+    titulo: 'Montemayor, J. (2017). Factores que inciden en la productividad y competitividad en las entidades federativas de México',
+    link: 'https://cefp.gob.mx/transp/CEFP-CEFP-70-41-C-Estudio-PCF-041017.pdf',
+    año: 2017,
+    documento: 'Factores que inciden en la productividad y competitividad en las entidades federativas de México',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
   }
 ];
