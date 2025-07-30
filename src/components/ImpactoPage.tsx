@@ -10,16 +10,19 @@ export default function InformacionDeReferencia() {
     año: string[];
     documento: string;
     tipoUsuario: string;
+    tipoDoc: string;
   }>({
     año: [],
     documento: '',
-    tipoUsuario: ''
+    tipoUsuario: '',
+    tipoDoc: ''
   });
 
    const resultados = dataImpacto.filter(item =>
     (filtros.año.length === 0 || filtros.año.includes(item.año.toString())) &&
     (filtros.documento === '' || item.documento === filtros.documento) &&
-    (filtros.tipoUsuario === '' || item.tipoUsuario === filtros.tipoUsuario)
+    (filtros.tipoUsuario === '' || item.tipoUsuario === filtros.tipoUsuario) &&
+    (filtros.tipoDoc === '' || item.tipoDoc?.toString() === filtros.tipoDoc)
   );
 
   return (

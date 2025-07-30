@@ -2,11 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 
+const tipoDocOptions = [
+   { value: 1, label: 'Índice Nacional de Ciencia, Tecnología e Innovación 2015' },
+   { value: 2, label: 'Índice Nacional de Ciencia, Tecnología e Innovación 2018' }
+];
+
 type Props = {
   onChange: (filtros: {
     año: string[]; 
     documento: string;
     tipoUsuario: string;
+    tipoDoc : string;
   }) => void;
 };
 
@@ -17,10 +23,13 @@ const tiposUsuario = [
   'Internacional',
 ];
 
+
+
 const ImpactFilters = ({ onChange }: Props) => {
   const [añosSeleccionados, setAñosSeleccionados] = useState<{ value: string; label: string }[]>([]);
   const [documento, setDocumento] = useState('');
   const [tipoUsuario, setTipoUsuario] = useState('');
+  const [tipoDoc, setTipoDoc] = useState('');
   
   // const [año, setAño] = useState('');
   // const [documento, setDocumento] = useState('');
@@ -34,8 +43,9 @@ const ImpactFilters = ({ onChange }: Props) => {
       año: añosSeleccionados.map(a => a.value),
       documento,
       tipoUsuario,
+      tipoDoc,
     });
-  }, [añosSeleccionados, documento, tipoUsuario]);
+  }, [añosSeleccionados, documento, tipoUsuario,tipoDoc]);
 
   //valores estaticos
 // const años = [
@@ -88,8 +98,10 @@ const documentos = [
   'Información Económica Estatal -  Veracruz',
   'Información Económica Estatal - Yucatán',
   'Información Económica Estatal - Zacatecas',
-  'Índice Nacional de Ciencia 2015, UABJO',
-  'Índice Nacional de Ciencia 2015, En busca de un vínculo con la ciudadanía',
+  'Plan de Estudios de la Maestría en Proyectos Productivos Sustentables',
+  'En busca de un vínculo con la ciudadanía',
+  'Análisis comparativo del sector logístico entre la región de Yucatán, México y la Comunidad Autónoma de Aragón con referencia a la metodología de Estrategias de Investigación e Innovación para la Especialización Inteligente (RIS3)',
+  'Minimonografía de Yucatán. Censos Económicos 2014 INEGI',
 
 ];
 
@@ -199,6 +211,19 @@ const documentos = [
           <option key={i} value={t}>{t}</option>
         ))}
       </select>
+
+      {/* DOCUMENTO */}
+        <select
+          className="bg-[#003366] text-white font-semibold rounded-full px-4 py-2 focus:outline-none"
+          onChange={e => setTipoDoc(e.target.value)}
+          value={tipoDoc}
+        >
+          <option value="">TODOS</option>
+          {tipoDocOptions.map((t, i) => (
+            <option key={i} value={t.label}>{t.label}</option>
+          ))}
+        </select>
+
     </div>
   );
 };
