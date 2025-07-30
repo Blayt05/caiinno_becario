@@ -110,7 +110,7 @@ export default function Home() {
 
     <section id="que-pretendemos" className="lg:min-h-screen bg-white pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
       <div className="container mx-auto px-4 sm:px-6">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 sm:mb-12 md:mb-16 lg:mb-20">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 sm:mb-12 md:mb-16 lg:mb-20">
           ¿QUÉ PRETENDEMOS?
         </h2>
         <div className="w-full flex justify-center items-center">
@@ -126,17 +126,17 @@ export default function Home() {
       </div>
     </section>
 
-      <section id="como-lo-hacemos" className="lg:min-h-screen bg-blue-200 pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
+      <section id="como-lo-hacemos" className="lg:min-h-screen bg-blue-200 pb-0 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
         <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
             <Image
-              src="/¿CÓMO LO HACEMOS.png"
+              src="/COMOLOHACEMOS_VS.png"
               alt="¿Cómo lo hacemos?"
-              width={1250}
+              width={1400}
               height={200}
               priority
-              className="w-full max-w-[1250px]"
+              className="w-full max-w-[1400px]"
             />
           </div>
         </div>
