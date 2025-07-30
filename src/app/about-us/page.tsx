@@ -34,11 +34,11 @@ export default function AboutUs() {
       </div>
 
       {/* Full-width images */}
-      <div className="flex flex-col px-1 md:px-0">
+      <div className="w-full relative mt-12">
         <div className="w-full relative">
           <div className="aspect-[16/9] sm:aspect-[2/1] md:aspect-[21/9] relative">
             <Image
-              src="/¿QUÉ PRENTEDEMOS_VE.png"
+              src="/QUEPRETENDEMOS_VE.png"
               alt="Our Aim"
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, 100vw"
