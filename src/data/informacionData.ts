@@ -268,7 +268,7 @@ export const dataImpacto = [
     titulo: 'Medina, R. (2016). Análisis comparativo del sector logístico entre la región de Yucatán, México y la Comunidad Autónoma de Aragón con referencia a la metodología de Estrategias de Investigación e Innovación para la Especialización Inteligente (RIS3)',
     link: 'https://upcommons.upc.edu/bitstream/handle/2117/96887/MEMORIA_RUBI_MEDINA.pdf',
     año: 2016,
-    documento: 'Análisis comparativo del sector logístico entre la región de Yucatán, México y la Comunidad Autónoma de Aragón con referencia a la metodología de Estrategias de Investigación e Innovación para la Especialización Inteligente (RIS3)',
+    documento: 'Análisis comparativo con referencia a la metodología de RIS3',
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
   },
@@ -284,7 +284,7 @@ export const dataImpacto = [
     titulo: 'Montemayor, J. (2017). Factores que inciden en la productividad y competitividad en las entidades federativas de México',
     link: 'https://cefp.gob.mx/transp/CEFP-CEFP-70-41-C-Estudio-PCF-041017.pdf',
     año: 2017,
-    documento: 'Factores que inciden en la productividad y competitividad en las entidades federativas de México',
+    documento: 'Factores que inciden en la productividad de México',
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
   },

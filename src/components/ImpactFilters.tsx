@@ -98,11 +98,11 @@ const documentos = [
   'Información Económica Estatal -  Veracruz',
   'Información Económica Estatal - Yucatán',
   'Información Económica Estatal - Zacatecas',
-  'Plan de Estudios de la Maestría en Proyectos Productivos Sustentables',
+  'Maestría en Proyectos Productivos Sustentables',
   'En busca de un vínculo con la ciudadanía',
-  'Análisis comparativo del sector logístico entre la región de Yucatán, México y la Comunidad Autónoma de Aragón con referencia a la metodología de RIS3',
+  'Análisis comparativo con referencia a la metodología de RIS3',
   'Minimonografía de Yucatán. Censos Económicos 2014 INEGI',
-  'Factores que inciden en la productividad y competitividad en las entidades federativas de México',
+  'Factores que inciden en la productividad de México',
   'La innovación en el comercio exterior de San Luis Potosí'
 ];
 
