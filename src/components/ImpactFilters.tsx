@@ -229,14 +229,14 @@ const documentos = [
 />
 
 
-
-      <select  className="bg-[#003366] text-white font-semibold rounded-full px-4 py-2 focus:outline-none"
+{/* ESTE ES EL BUENO  */}
+      {/* <select  className="bg-[#003366] text-white font-semibold rounded-full px-4 py-2 focus:outline-none"
       onChange={e => setDocumento(e.target.value)} value={documento}>
         <option value="">DOCUMENTO</option>
         {documentos.map((d, i) => (
           <option key={i} value={d}>{d}</option>
         ))}
-      </select>
+      </select> */}
 
       {/* <select className="w-full whitespace-normal break-words">
         <option value="">DOCUMENTO</option>
