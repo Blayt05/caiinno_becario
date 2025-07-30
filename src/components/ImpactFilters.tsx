@@ -103,7 +103,7 @@ const documentos = [
   'Análisis comparativo del sector logístico entre la región de Yucatán, México y la Comunidad Autónoma de Aragón con referencia a la metodología de RIS3',
   'Minimonografía de Yucatán. Censos Económicos 2014 INEGI',
   'Factores que inciden en la productividad y competitividad en las entidades federativas de México',
-
+  'La innovación en el comercio exterior de San Luis Potosí'
 ];
 
   return (

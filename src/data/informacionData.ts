@@ -287,5 +287,13 @@ export const dataImpacto = [
     documento: 'Factores que inciden en la productividad y competitividad en las entidades federativas de México',
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
+  },
+  {
+    titulo: 'Revista Cimexus. (2017). La innovación en el comercio exterior de San Luis Potosí',
+    link: 'https://www.academia.edu/78537142/La_innovación_en_el_comercio_exterior_de_San_Luis_Potosí',
+    año: 2017,
+    documento: 'La innovación en el comercio exterior de San Luis Potosí',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
   }
 ];
