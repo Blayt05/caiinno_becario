@@ -520,5 +520,118 @@ export const dataImpacto = [
     tipoUsuario: 'Gubernamental',
     tipoDoc : 1
   },
-  
+  {
+    titulo: 'Ayuntamiento de Zacatecas (Presidente Municipal y Cabildo). (2019). Plan Municipal de Desarrollo 2019-2021',
+    link: 'https://gaceta.capitaldezacatecas.gob.mx/wp-content/uploads/2019/01/PMD-2019-2021.pdf',
+    año: 2019,
+    documento: 'Plan Municipal de Desarrollo 2019-2021',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'López Hernández, A.A. (2019). Proyecto Rescatemos Tabasco 2019 - 2024 Juntos Haremos Historia',
+    link: 'https://uiet.edu.mx/docs/pdi/2019/MaterialPI/DiversasConsultas/3ProyectoGobierno2019_2024Cam.pdf',
+    año: 2019,
+    documento: 'Proyecto Rescatemos Tabasco 2019 - 2024 Juntos Haremos Historia',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Prieto Quezada, M. T., Méndez Luévano, T., Bosch Fiol, E. (2020). Violencia de género de lo social a espacios universitarios',
+    link: 'https://www.researchgate.net/profile/Tanya-Mendez-Luevano-2/publication/344304443_Violencia_de_genero-2/links/5f6506ec458515b7cf3eb972/Violencia-de-genero-2.pdf',
+    año: 2020,
+    documento: 'Violencia de género de lo social a espacios universitarios',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado de Veracruz. (2020). Agenda 2030 Veracruz: Ruta de Implementación',
+    link: 'https://repositorio.veracruz.gob.mx/wp-content/uploads/sites/4/files/agenda2030/A2030_RUTA_DE_IMPLEMENTACION_FINAL.pdf',
+    año: 2020,
+    documento: 'Agenda 2030 Veracruz: Ruta de Implementación',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'De Jesús Madriz Estrada, A. (2020). INICIATIVA CON PROYECTO DE DECRETO DIP. ANTONIO DE JESÚS MADRIZ',
+    link: 'http://congresomich.gob.mx/file/INICIATIVA-CON-PROYECTO-DE-DECRETO-DIP.-ANTONIO-DE-JESÚS-MADRIZ.pdf',
+    año: 2020,
+    documento: 'INICIATIVA CON PROYECTO DE DECRETO DIP. ANTONIO DE JESÚS MADRIZ',
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Congreso del Estado de Michoacán de Ocampo. (2020). Gaceta Parlamentaria',
+    link: 'http://congresomich.gob.mx/file/Sesión-092-III-C-01-07-2020.pdf',
+    año: 2020,
+    documento: 'Gaceta Parlamentaria',
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Durand Villalobos, J. P.,González Romero, K. V., Rodríguez Jiménez, J. R. (2021). La internacionalización de la Universidad de Sonora',
+    link: 'https://www.academia.edu/118654801/La_internacionalizacio_n_de_la_Universidad_de_Sonora',
+    año: 2021,
+    documento: 'La internacionalización de la Universidad de Sonora',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Universidad Autónoma de Baja California. (2021). Propuesta de creación que presenta la Facultad de Pedagogía e Innovación Educativa, Mexicali',
+    link: 'https://sriagral.uabc.mx/secretaria_general/consejo/202112/07.pdf',
+    año: 2021,
+    documento: 'Propuesta de creación que presenta la Facultad de Pedagogía e Innovación Educativa, Mexicali',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Universidad Autónoma del Estado de Morelos (UAEM). (2022). Plan de Estudios Maestría en Biotecnología',
+    link: 'https://www.uaem.mx/sites/default/files/pe-maestri-a-en-biotecnologi-a-aprobado-sellado-scu-24062022-1pdfUOTdW6E0Fe.pdf',
+    año: 2022,
+    documento: 'Plan de Estudios Maestría en Biotecnología',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Concepción Álvarez, D., Hernández Cruz, L. M., Uribe Santiago, H. F., Díaz Rosado, M. (2022). Estructura organizacional de las empresas desarrolladoras de software radicadas en la Ciudad de San Francisco de Campeche',
+    link: 'https://doi.org/10.35429/jct.2022.17.6.1.10',
+    año: 2022,
+    documento: 'Estructura organizacional de las empresas desarrolladoras de software radicadas en la Ciudad de San Francisco de Campeche',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'H. Congreso del Estado de Veracruz. (2022). Plan Municipal de Desarrollo 2022 - 2025',
+    link: 'https://www.benitojuarez.gob.mx/images/TRANSPARENCIA2225/NORMATIVIDADMUNICIPAL/PMD2022.pdf',
+    año: 2022,
+    documento: 'Plan Municipal de Desarrollo 2022 - 2025',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Revista Ecorfan España. (2022). Journal Computer Technology',
+    link: 'https://www.ecorfan.org/spain/researchjournals/Tecnologia_Informatica/vol6num17/Journal_Computer_Technology_V6_N17.pdf',
+    año: 2022,
+    documento: 'Journal Computer Technology',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Alonso Gómez, N. (2022). Desarrollo de la investigación de alto nivel en académicos e investigadores del SNI del área VIII-Ingenierías y desarrollo tecnológico en Chiapas: condiciones y perspectivas desde lo regional',
+    link: 'https://riuma.uma.es/xmlui/bitstream/handle/10630/26467/TD_ALONSO_GOMEZ_Nallely.pdf?sequence=1&isAllowed=y',
+    año: 2022,
+    documento: 'Desarrollo de la investigación de alto nivel en académicos e investigadores del SNI del área VIII-Ingenierías y desarrollo tecnológico en Chiapas: condiciones y perspectivas desde lo regional',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Del Camen Gutiérrez-Diez, M., Reyes López, J. G. (2023). Sustainability and Development at Northwestern Municipalities in Mexico: Chihuahua Region',
+    link: 'https://link.springer.com/rwe/10.1007/978-3-031-16017-2_19',
+    año: 2023,
+    documento: 'Sustainability and Development at Northwestern Municipalities in Mexico: Chihuahua Region',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+
+
 ];

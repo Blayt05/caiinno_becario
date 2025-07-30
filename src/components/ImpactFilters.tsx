@@ -131,6 +131,21 @@ const documentos = [
   'Informe de la Gestión Gubernamental 2019',
   'La cooperación tecnológica entre start-ups de Israel y Jalisco',
   'Plan estatal de Desarrollo 2019 - 2024',
+  'Plan Municipal de Desarrollo 2019-2021',
+  'Proyecto Rescatemos Tabasco 2019 - 2024 Juntos Haremos Historia',
+  'Violencia de género de lo social a espacios universitarios',
+  'Agenda 2030 Veracruz: Ruta de Implementación',
+  'INICIATIVA CON PROYECTO DE DECRETO DIP. ANTONIO DE JESÚS MADRIZ',
+  'Gaceta Parlamentaria',
+  'La internacionalización de la Universidad de Sonora',
+  'Propuesta de creación que presenta la Facultad de Pedagogía e Innovación Educativa, Mexicali',
+  'Plan de Estudios Maestría en Biotecnología',
+  'Estructura organizacional de las empresas desarrolladoras de software radicadas en la Ciudad de San Francisco de Campeche',
+  'Plan Municipal de Desarrollo 2022 - 2025',
+  'Journal Computer Technology',
+  'Desarrollo de la investigación de alto nivel en académicos e investigadores del SNI del área VIII-Ingenierías y desarrollo tecnológico en Chiapas: condiciones y perspectivas desde lo regional',
+  'Sustainability and Development at Northwestern Municipalities in Mexico: Chihuahua Region',
+
 
 ];
 
