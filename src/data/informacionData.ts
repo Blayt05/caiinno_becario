@@ -646,6 +646,438 @@ export const dataImpacto = [
     tipoUsuario: 'Gubernamental',
     tipoDoc : 2
   },
-
-
+  {
+    titulo: 'Delegación Federal en el Estado de San Luis Potosí. (2018). Informe de Actividades 2017 - 2018',
+    link: 'https://www.gob.mx/cms/uploads/attachment/file/397954/24_San_Luis_Potos__InformeActividades_2017_2018.pdf',
+    año: 2018,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Tabasco. (2019). Plan Estatal de desarrollo 2019 - 2024',
+    link: 'https://tabasco.gob.mx/sites/default/files/users/planeacion_spf/PLED%202019-2024.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Consejo Estatal de Ciencia y Tecnología de Jalisco. (2019). Reglas de Operación del Programa Apoyo a la Ciencia, Tecnología e Innovación 2019',
+    link: 'https://www.coecytjal.org.mx/Plataforma/ArchivosApoyo/ROP%20-%20COECYTJAL_2019%20CON%20ANEXOS.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Jalisco. (2019). Plan Estatal de Gobernanza y Desarrollo de Jalisco 2018 - 2024',
+    link: 'https://uniondetula.gob.mx/filetransparencia/Articulo_8/Fraccion_III/c/Plan%20Estatal%20de%20Gobernanza%20y%20Desarrollo%20de%20Jalisco%20-%202018-2024%20Anexo%202.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Morelos. (2019). Plan Estatal de desarrollo 2019 - 2024 Actualizado',
+    link: 'https://www.ssm.gob.mx/portal/descargables/evaluacion/Plan_Estatal_de_Desarrollo_2019-2024-2.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Yucatán. (2019). Plan Estatal de Desarrollo de Yucatán 2018 - 2024',
+    link: 'https://dif.yucatan.gob.mx/Archivos/NORMATIVO/128.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Chiapas. (2019). Programa institucional del Instituto de Ciencia, Tecnología e Innovación 2019-2024',
+    link: 'https://icti.chiapas.gob.mx/media/marco-juridico/2022/programa institucional icti.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Morelos. (2019). Programa especial de ciencia y tecnología del estado de Morelos 2019-2024',
+    link: 'https://mir.morelos.gob.mx/records/7C6F482C23784D9AA7544C176763D14D.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Rodríguez Ramírez, H., Chávez Elorza, M. G., Rubio Campos, J. (2019). Prevención de la violencia social entre la juventud en Monterrey desde su propia óptica',
+    link: 'https://www.ciespi.org.br/media/files/fcea049a8ec4d511ecbe6e5141d3afd01c/f0dae083bcf5911ed976d71393b4c16ff/promocion-de-la-ciudadania-a-traves-de-la-participacion-infantil.pdf',
+    año: 2019,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Puebla. (2019). Publicación del Plan Estatal de Desarrollo Puebla, Estabilidad con Rumbo',
+    link: 'https://ojp.puebla.gob.mx/media/k2/attachments/Plan_Estatal_de_Desarrollo_Puebla_Estabilidad_con_Rumbo_24042019.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Jalisco. (2019). Plan Sectorial de Desarrollo Económico de Jalisco',
+    link: 'https://plan.jalisco.gob.mx/wp-content/uploads/2022/09/Desarrollo-economico-plan-sectorial.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Consejo de Ciencia y Tecnología del Estado de Morelos (CCYTEM). (2019). Actualización del Programa Especial de Ciencia y Tecnología del Estado de Morelos 2019-2024',
+    link: 'https://mir.morelos.gob.mx/records/7C6F482C23784D9AA7544C176763D14D.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Poder Legislativo del Estado de Campeche. (2019). Gaceta Parlamentaria',
+    link: 'https://www.congresocam.gob.mx/wp-content/uploads/adjuntos_sitio/SG/LXIII/GACETAS/SEGUNDO_ANO_LEGISLATIVO/001_PRIMER_PERIODO_ORDINARIO/099_GACETA_29OCTUBRE2019.pdf',
+    año: 2019,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Herrera Nuño, E. (2019). PRIORIDADES PARA AGUASCALIENTES EN MATERIA DE INNOVACIÓN (CAIINNO 2018) / EL APUNTE',
+    link: 'https://www.lja.mx/2019/04/prioridades-para-aguascalientes-en-materia-de-innovacion-caiinno-2018-el-apunte/',
+    año: 2019,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Andrade Baena, G. (2019). Mapa de Indicadores de STEM en México',
+    link: 'https://www.movimientostem.org/wp-content/uploads/2023/01/Mapa-Indicadores-STEM-Mexico_EtapaAnalisis_2022.pdf',
+    año: 2019,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno de Campeche. (2019). Cuarto Informe de Gobierno',
+    link: 'https://transparenciafiscal.campeche.gob.mx/images/Documentos/Bloque%204/Informes%20de%20Gobierno/4informe-gobierno(1).pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Poder Legislativo del Estado de Veracruz. (2019). Gaceta Oficial',
+    link: 'https://www.veracruz.gob.mx/proteccioncivil/wp-content/uploads/sites/5/2019/06/Plan-Veracruzano-Desarrollo-2019-2024.pdf',
+    año: 2019,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Jalisco. (2019). PlanEstatal de Gobernanza y Desarrollo de Jalisco',
+    link: 'https://elsalto.gob.mx/portal-api/public/transparencia/docs/1616098132699.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'CONACYT. (2019). Foros Estatales de Consulta 2019',
+    link: 'https://foroconsultivo.org.mx/FCCyT/documentos/Foros_Estatales_2019_Vol1.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Tabasco. (2019). Informe de la Gestión Gubernamental 2019',
+    link: 'https://publicacionperiodico.tabasco.gob.mx/documento/1369/firmado_qr.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Chiapas. (2019). Plan Estatal de Desarrollo Chiapas 2019 - 2024',
+    link: 'https://www.haciendachiapas.gob.mx/planeacion/Informacion/PED/PED-2019.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Jalisco. (2019). El Estado de Jalisco Periódico Oficial',
+    link: 'https://apiperiodico.jalisco.gob.mx/api/sites/periodicooficial.jalisco.gob.mx/files/10-19-19-v.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ayuntamiento Constitucional del Municipio de Aguascalientes. (2019). Plan de Desarrollo Municipal 2019 - 2021 Aguascalientes',
+    link: 'https://www.evaluando.gob.mx/assets/pdm2019-2021.pdf',
+    año: 2019,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Chiapas. (2020). Evaluación del Plan Estatal de Desarrollo Chiapas 2019 - 2024 y programas sectoriales',
+    link: 'https://saludchiapas.gob.mx/storage/app/uploads/public/613/aa1/551/613aa155197df415451735.pdf',
+    año: 2020,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Congreso del Estado de Tamaulipas. (2020). VERSIÓN ESTENOGRÁFICA DE LA SESIÓN PÚBLICA ORDINARIA, CELEBRADA EL DÍA 15 DE DICIEMBRE DEL 2020',
+    link: 'https://www.congresotamaulipas.gob.mx/Parlamentario/Archivos/VersionesEstenograficas/71%20SESION%20PUBLICA%20ORDINARIA%2015%20DICIEMBRE%202020%20FINAL-.pdf',
+    año: 2020,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobiereno de Tamaulipas: Poder Legislativo. (2020). Iniciativa 2020',
+    link: 'https://www.congresotamaulipas.gob.mx/Parlamentario/Archivos/Iniciativas/Iniciativa%201%2015-12-2020.pdf',
+    año: 2020,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ramos Martínez, E. (2020). (Tesis) Museo Interactivo de Ciencia y Tecnología de la U.M.S.N.H',
+    link: 'http://bibliotecavirtual.dgb.umich.mx:8083/xmlui/bitstream/handle/DGB_UMICH/11394/FA-L-2020-1279%20VR.pdf?sequence=1&isAllowed=y',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'De Jesús Madriz Estrada, A. (2020). INICIATIVA CON PROYECTO DE DECRETO DIP. ANTONIO DE JESÚS MADRIZ',
+    link: 'http://congresomich.gob.mx/file/INICIATIVA-CON-PROYECTO-DE-DECRETO-DIP.-ANTONIO-DE-JESÚS-MADRIZ.pdf',
+    año: 2020,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Universidad Tecnológica de Jalisco. (2020). Plan Institucional de Desarrollo 2020 - 2025 Visión 2030',
+    link: 'https://transparencia.info.jalisco.gob.mx/sites/default/files/PIDE%20UTJ%202020-2025.pdf',
+    año: 2020,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Del Ángel, J. (2020). Legisladores panistas presentan iniciativa para fortalecer el Plan Estatal de Ciencia y Tecnología',
+    link: 'https://enlineadirecta.info/2020/12/15/legisladores-panistas-presentan-iniciativa-para-fortalecer-el-plan-estatal-de-ciencia-y-tecnologia/',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Colegio de Economistas del Estado de Veracruz. (2020). Plan Estratégico 2020-2021',
+    link: 'https://www.colecover.org/archivos/2020/11/PlanEstrategico.pdf',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Universidad Politécnica de Puebla. (2020). Programa Sectorial de Desarrollo 2020 - 2022',
+    link: 'https://www.upp.edu.mx/normatividad/files/externa/estatal/programas/Programa_Sectorial_de_Educacion_y_Cultura.pdf',
+    año: 2020,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Alonso Gómez, N., Ignacio Rivas, J. (2020). La ciencia en Chiapas: un reto para los investigadores de las Ingenierías',
+    link: 'https://www.researchgate.net/publication/346471856_La_ciencia_en_Chiapas_un_reto_para_los_investigadores_de_las_Ingenierias',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ruiz, I. (2020). Pandemia reta a sistema educativo',
+    link: 'https://oem.com.mx/elsoldemorelia/local/pandemia-reta-a-sistema-educativo-18906454?token=-1328669238',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Daza Cantillo, J., Martínez Téllez, T., Castañeda Liévano, L. C. (2020). PLAN DE INTERNACIONALIZACIÓN PARA LA EMPRESA DE JOYERÍA COLOMBIANA EUROJOYAS',
+    link: 'https://ciencia.lasalle.edu.co/server/api/core/bitstreams/60eeb22a-a5a9-4e62-a2c7-906cb334c9a2/content',
+    año: 2020,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Congreso del Estado de Michoacán de Ocampo. (2020). Gaceta Parlamentaria',
+    link: 'http://congresomich.gob.mx/file/Sesión-092-III-C-01-07-2020.pdf',
+    año: 2020,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Fundación Ideay Bay Area Council Economic Institute. (2021). Southern Connection: Innovation Clusters in Mexico and the Bridge to Silicon Valley',
+    link: 'https://www.fundacionidea.org.mx/storage/IDEA/files/SouthernConnectionMexicoBayAreaJune2021.pdf',
+    año: 2021,
+    tipoUsuario: 'Internacional',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Catalán Lerma, M. (2021). Plan Estatal de Desarrollo se enfocará en atender estancamiento económico e industrialización incipiente',
+    link: 'https://ljz.mx/17/11/2021/el-plan-estatal-de-desarrollo-se-enfocara-en-atender-estancamiento-economico-e-industrializacion-incipiente/',
+    año: 2021,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gras Marín, M., Alí Fojaco, C., Segura Guzmán, L. (2021). Estrategia Educación STEM para México',
+    link: 'https://movimientostem.org/wp-content/uploads/2021/09/Vision-Exito-Intersectorial-_-Cuatro-Ejes-Estrategicos-STEM.pdf',
+    año: 2021,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Secretaría General de Gobierno. (2021). PROGRAMA MUNICIPAL DE DESARROLLO URBANO Y ORDENAMIENTO TERRITORIAL, AGUASCALIENTES 2045',
+    link: 'https://eservicios2.aguascalientes.gob.mx/NormatecaAdministrador/archivos/MUN-23-98.pdf',
+    año: 2021,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Chalán Martínez, J. P., Vásquez Arias, J. A., Jaya Pineda, I. I., Serrano Orellana, B. J. (2021). Relación del nivel de formación académica de las mujeres sobre su capacidad emprendedora para la creación de emprendimientos Machala 2021',
+    link: 'https://www.593dp.com/index.php/593_Digital_Publisher/article/view/719',
+    año: 2021,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Secretaría de Economía Estado de Zacatecas. (2021). Plan Estatal de Desarrollo',
+    link: 'https://catalogoestatal.zacatecas.gob.mx/regulaciones/390',
+    año: 2021,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Covarrubias Salvatori, V. G., Tapia Mejía, E., Rivera Márquez, J. (2021). RETOS Y OPORTUNIDADES DEL EMPRENDIMIENTO SUSTENTABLE EN MÉXICO',
+    link: 'https://cdhpuebla.org.mx/pdf/2021/PRE/Libros/111121_Libro_Retos%20y%20Oportunidades%20del%20Emprendimiento%20Sustentable%20en%20México_Final.pdf',
+    año: 2021,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Rodríguez Juárez, E., Solis Batalla, K. E., Gaona Rivera, E. (2021). Impacto de la escolaridad de los trabajadores del sector manufacturero en el desarrollo científico y tecnológico de las entidades federativas de México',
+    link: 'https://www.revistapanoramaeconomico.mx/index.php/PE/article/view/88',
+    año: 2021,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Tlaxcala. (2021). Plan Estatal de Desarrollo 2021 - 2027',
+    link: 'https://www.saludtlax.gob.mx/documentos/ITGSEF2016/2022/Plan_Estatal_de_Desarrollo_2021-2027.pdf',
+    año: 2021,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'OECD. (2021). OECD Skills Strategy Tlaxcala (Mexico)',
+    link: 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/06/oecd-skills-strategy-tlaxcala-mexico_448f6854/13925818-en.pdf',
+    año: 2021,
+    tipoUsuario: 'Internacional',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Poder Legislativo del Estado de Zacatecas. (2022). Gaceta Parlamentaria',
+    link: 'https://www.congresozac.gob.mx/coz/images/uploads/20221116115807.pdf',
+    año: 2022,
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Diario Oficial de la Federación. (2022). PROGRAMA INSTITUCIONAL ENTIDADES SECTORIZADAS DERIVADO DEL PLAN NACIONAL DE DESARROLLO 2019-2024',
+    link: 'https://www.dof.gob.mx/nota_detalle_popup.php?codigo=5652604',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno Municipal Ixtlahuaca. (2022). Plan de Desarrollo Municipal 2022 - 2024 Ixtlahuaca',
+    link: 'https://copladem.edomex.gob.mx/sites/copladem.edomex.gob.mx/files/files/pdf/Planes%20y%20programas/Mpales-2022-2024/Ixtlahuaca_PDM_2022_2024.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Morelos. (2022). Periódico Oficial del Estado de Morelos',
+    link: 'https://periodico.morelos.gob.mx/obtenerPDF/2022/6143.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno de Sinaloa. (2022). Periódico Oficial del Estado de Sinaloa',
+    link: 'https://media.transparencia.sinaloa.gob.mx/uploads/files/1/POE-29-abril-2022-052-BIS-1y%202.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Coordinación General para el Fomento a la Investigación Científica e Innovación del Estado de Sinaloa. (2022). Programa Especial de Ciencia y Tecnología del Estado de Sinaloa 2022-2027',
+    link: 'https://media.transparencia.sinaloa.gob.mx/uploads/files/1/1.PROGRAMA%20ESPECIAL%20DE%20CIENCIA%202022-2027.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ayuntamiento Constitucional Ixtlahuaca. (2022). Acuerdo de Cabildo Quinta Sesión Extraordinaria: Plan de Desarrollo Municipal 2022 - 2024',
+    link: 'https://ixtlahuaca.gob.mx/docs/gacetas/2022/mar/gm_005.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Asesoría Superior del Estado de Yucatán H Congreso del Estado de Yucatán. (2022). Informes Individuales: Cuenta Pública 2022',
+    link: 'https://www.congresoyucatan.gob.mx/vistas/comisionVigilancia/cuenta2022/tercera/INFORMES%20INDIVIDUALES/ENTIDADES/TOMO%20IV%20ENTIDADES.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ayuntamiento de Chapultepec, Estado de México. (2022). Plan de Desarrollo Municipal 2022 - 2024',
+    link: 'https://chapultepec.gob.mx/assets/docs/normatividad/Plan-de-Desarrollo-Municipal-2022-2024-Chapultepec.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Wong González, P., Rózga Luter, R. (2022). Estudios aplicados al análisis global y aprovechamientos del territorio para la innovación productiva',
+    link: 'https://core.ac.uk/download/548239881.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Congreso del Estado Libre y Soberano de Tlaxcala. (2022). Plan Estatal de Desarrollo 2021-2027',
+    link: 'https://tlaxcala.gob.mx/images/PDFGOB/plan_estatal_desarrollo_21_27.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Luis Ramírez, J. (2022). SE DEBE REDEFINIR LA POLÍTICA CIENTÍFICA Y TECNOLÓGICA EN EL ESTADO',
+    link: 'https://abctlax.com/se-debe-redefinir-la-politica-cientifica-y-tecnologica-en-el-estado/',
+    año: 2022,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'El Estado de Jalisco Periódico Oficial. (2022). REGLAS DE OPERACIÓN. "GESTIÓN DE FONDOS Y PROGRAMAS DE APOYO DE CIENCIA, TECNOLOGÍA E INNOVACIÓN."',
+    link: 'https://l.coecytjal.org.mx/storage/rop/2022/Reglas%20de%20Operación%20Gestión%20de%20Fondos%20y%20Programas%20CTI%202022.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Morelos. (2022). Periódico Oficial del Estado de Morelos',
+    link: 'https://www.hacienda.morelos.gob.mx/images/docu_planeacion/planea_estrategica/programas_sectoriales/2019-2024/PECienciayTecnologia.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Instituto de Ciencia, Tecnología e Innovación del Estado de Chiapas. (2022). Programa Institucional Instituto de Ciencia, Tecnología e Innovación 2019-2024',
+    link: 'https://icti.chiapas.gob.mx/media/marco-juridico/2022/programa%20institucional%20icti.pdf',
+    año: 2022,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Universidad Autónoma de Zacatecas. (2023). Doctorado en Ciencia Política: PLAN DE ESTUDIOS ACTUALIZADO A IMPLEMENTARSE PARA LA VII GENERACIÓN DE ESTUDIANTES EN ENERO DE 2023',
+    link: 'https://cienciapolitica.uaz.edu.mx/wp-content/uploads/2021/04/PLAN-DE-ESTUDIOS-DCP.pdf',
+    año: 2023,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
 ];
