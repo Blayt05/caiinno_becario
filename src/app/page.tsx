@@ -126,7 +126,7 @@ export default function Home() {
       </div>
     </section>
 
-      <section id="como-lo-hacemos" className="lg:min-h-screen bg-blue-100 pb-0 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
+      <section id="como-lo-hacemos" className="lg:min-h-screen bg-celeste pb-0 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
         <div className="container mx-auto px-4 sm:px-6">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
           <div className="w-full flex justify-center items-center">
