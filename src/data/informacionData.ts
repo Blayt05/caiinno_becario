@@ -313,7 +313,7 @@ export const dataImpacto = [
     tipoDoc : 1
   },
   {
-    titulo: 'M López López, M., Villarreal Peralta, E.M. (2017). APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+    titulo: 'López López, M., Villarreal Peralta, E.M. (2017). APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
     link: 'https://www.uam.mx/altec2017/pdfs/ALTEC_2017_paper_109.pdf',
     año: 2017,
     documento: 'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
@@ -327,5 +327,133 @@ export const dataImpacto = [
     documento: 'Programa especial de ciencia de Zacatecas 2017-2021',
     tipoUsuario: 'Gubernamental',
     tipoDoc : 1
-  }
+  },
+  {
+    titulo: 'López López, M., Villarreal Peralta, E.M. (2017). APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+    link: 'https://repositorio.altecasociacion.org/bitstream/handle/20.500.13048/1465/Aproximaciones%20a%20la%20medición%20del%20sistema%20de%20innovación%20en%20México.pdf?sequence=1&isAllowed=y',
+    año: 2017,
+    documento: 'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Cámara de Diputados. (2018). Gaceta Parlamentaria, año XXI, número 5029, lunes 21 de mayo de 2018',
+    link: 'https://gaceta.diputados.gob.mx/PDF/63/2018/may/20180521.pdf',
+    año: 2018,
+    documento: 'Gaceta Parlamentaria, año XXI, número 5029',
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 1
+  },
+   {
+    titulo: 'Sistema de Información Legislativa. (2018). INICIATIVA CON PROYECTO DE DECRETO POR EL QUE SE ADICIONA UN INCISO G) A LA FRACCIÓN XII DEL ARTÍCULO 6º DE LA LEY DE LA PROPIEDAD INDUSTRIAL',
+    link: 'https://sil.gobernacion.gob.mx/Archivos/Documentos/2018/05/asun_3713788_20180516_1525809885.pdf',
+    año: 2018,
+    documento: 'INICIATIVA FRACCIÓN XII DEL ARTÍCULO 6º DE LA LEY DE LA PROPIEDAD INDUSTRIAL',
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Hernández Mesa, E., Banda Ortiz, H., Mora Haro, M.J. (2018). Aproximación teórica de los indicadores que permitan evaluar el impacto social de la ciencia y la tecnología en el sector automotriz en Querétaro',
+    link: 'https://www.riico.net/index.php/riico/article/view/1476/1137',
+    año: 2018,
+    documento: 'Impacto social de la ciencia y la tecnología en el sector automotriz en Querétaro',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Martínez, E., De la Torre-Gea, G. (2018). Analysis of the ICT user Profile for e-goverment through Bayesian Networks',
+    link: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://zenodo.org/record/3572137/files/18%2520Analysis%2520of%2520the%2520ICT%2520User%2520Profile%2520for%2520eGoverment%2520through%2520Bayesian%2520Networks.pdf%3Fdownload%3D1&ved=2ahUKEwjC0_PR8sSOAxURI0QIHe3xCLI4UBAWegQIExAB&usg=AOvVaw0QJ32VpsJuuZsjXNSbsIxA',
+    año: 2018,
+    documento: 'Analysis of the ICT user Profile',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Consejo Nacional de Ciencia y Tecnología. (2018). Diagnóstico y Diseño del Programa Presupuestario S278, “Fomento Regional de las Capacidades Científicas, Tecnológicas y de Innovación”',
+    link: 'https://secihti.mx/wp-content/uploads/planeacion_y_evaluacion/evaluacion_programas_conacyt/Diseno/2_Diagnstico_y_Diseo_del_Pp_S278__vprel_7mar18.pdf',
+    año: 2018,
+    documento: 'Diagnóstico y Diseño del Programa Presupuestario S278',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado de Colima. (2018). AGENDA DIGITAL COLIMA “IMPULSANDO LA INCLUSIÓN Y EL DESARROLLO DE LA SOCIEDAD”',
+    link: 'https://admiweb.col.gob.mx/archivos_prensa/banco_img/file_5bfecd1c03dbe_AgendaDigitalColima.pdf',
+    año: 2018,
+    documento: 'AGENDA DIGITAL COLIMA',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Fierro, O., Martínez Ramos, J. O., Domínguez Alcaraz, P. J., I. (2018). Madurez tecnológica e innovación en empresas mexicanas',
+    link: 'https://www.researchgate.net/publication/353048615_Madurez_tecnologica_e_innovacion_en_empresas_mexicanas_Technological_maturity_and_innovation_in_Mexican_companies',
+    año: 2018,
+    documento: 'Madurez tecnológica e innovación en empresas mexicanas',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Consejo Nacional de Ciencia y Tecnología (CONACYT). (2018). Diagnóstico y Diseño del Programa Presupuestario S278, “Fomento Regional de las Capacidades Científicas, Tecnológicas y de Innovación”',
+    link: 'https://secihti.mx/wp-content/uploads/planeacion_y_evaluacion/evaluacion_programas_conacyt/Diseno/2_Diagnstico_y_Diseo_del_Pp_S278__vprel_7mar18.pdf',
+    año: 2018,
+    documento: '“Fomento Regional de las Capacidades Científicas, Tecnológicas y de Innovación”',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Rueda Contreras, C. A., Jiménez Almaguer, K. P., Mendoza Gómez, J. (2018). Efecto del empowerment grupal en la proactividad. Un estudio empírico en equipos de I+D de Universidades Tamaulipecas',
+    link: 'https://www.redalyc.org/journal/6379/637968306001/637968306001.pdf',
+    año: 2018,
+    documento: 'Efecto del empowerment grupal en la proactividad',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Olán Izquierdo, M. E. (2018). ANÁLISIS DE LA PRODUCTIVIDAD DE LAS EMPRESAS DEDICADAS AL MANEJO INTEGRAL DE RESIDUOS DEL MUNICIPIO DEL CENTRO DEL ESTADO DE TABASCO PARA UNA PROPUESTA DE DESARROLLO',
+    link: 'https://rinacional.tecnm.mx/bitstream/TecNM/3150/1/TESIS.%20MARIA%20ESTHER%20OLAN%20IZQUIERDO.pdf',
+    año: 2018,
+    documento: 'ANÁLISIS DE LA PRODUCTIVIDAD DE LAS EMPRESAS DEL ESTADO DE TABASCO',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Olvera Castillo, C. (2018). San Luis Potosí: De los rebozos a la industria automotriz',
+    link: 'https://www.academia.edu/41900462/San_Luis_Potos%C3%AD_De_los_rebozos_a_la_industria_automotriz',
+    año: 2018,
+    documento: 'San Luis Potosí: De los rebozos a la industria automotriz',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'CANO FLORES, M., GONZÁLEZ MUÑOZ, O., VELÁZQUEZ ROMERO, V. (2018). Reflexiones sobre desarrollo empresarial',
+    link: 'https://redibai-myd.org/portal/wp-content/uploads/2019/03/reflexiones-sobre-desarrollo-empresarial-17-3.pdf',
+    año: 2018,
+    documento: 'Reflexiones sobre desarrollo empresarial',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Paz Perez, D. E. (2018). Tamaulipas en la I+D+I, una experiencia regional',
+    link: 'https://www.academia.edu/40941942/Tamaulipas_en_la_I_D_i_una_experiencia_regional',
+    año: 2018,
+    documento: 'Tamaulipas en la I+D+I, una experiencia regional',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'CONACYT, FOMIX e Hidalgo Crece Contigo. (2018). FONDO MIXTO CONACYT - GOBIERNO DEL ESTADO DE HIDALGO CONVOCATORIA HGO-2018-03 “FORTALECIMIENTO DE INFRAESTRUCTURA CIENTÍFICA Y TECNOLÓGICA EN TELECOMUNICACIONES” DEMANDA ESPECÍFICA',
+    link: 'https://secihti.mx/wp-content/uploads/convocatorias/fondos_mixtos/hidalgo/2018-03_fomix/FOMIX_HIDALGO_DEMANDA%20ESPECÍFICA_2018-03.pdf',
+    año: 2018,
+    documento: 'FONDO MIXTO CONACYT - GOBIERNO DEL ESTADO DE HIDALGO CONVOCATORIA HGO-2018-03',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Benemérita Universidad Autónoma de Puebla (BUAP) - Facultad de medicina. (2019). Programa Académico de: Especialidad En Medicina Del Trabajo Y Ambiental',
+    link: 'https://mederi.buap.mx/portal/public/posgrado/Programas_academicos_especialidades/MEDICINA_DEL_TRABAJO_Y_AMBIENTAL_2019.pdf',
+    año: 2019,
+    documento: 'Programa Académico de: Especialidad En Medicina Del Trabajo Y Ambiental',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
 ];

@@ -107,6 +107,23 @@ const documentos = [
   'Manufactura del sector autopartes en Tlaxcala',
   'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
   'Programa especial de ciencia de Zacatecas 2017-2021',
+  'APROXIMACIONES A LA MEDICIÓN DEL SISTEMA DE INNOVACIÓN EN MÉXICO',
+  'Gaceta Parlamentaria, año XXI, número 5029',
+  'INICIATIVA FRACCIÓN XII DEL ARTÍCULO 6º DE LA LEY DE LA PROPIEDAD INDUSTRIAL',
+  'Impacto social de la ciencia y la tecnología en el sector automotriz en Querétaro',
+  'Analysis of the ICT user Profile',
+  'Diagnóstico y Diseño del Programa Presupuestario S278',
+  'AGENDA DIGITAL COLIMA',
+  'Madurez tecnológica e innovación en empresas mexicanas',
+  '“Fomento Regional de las Capacidades Científicas, Tecnológicas y de Innovación”',
+  'Efecto del empowerment grupal en la proactividad',
+  'ANÁLISIS DE LA PRODUCTIVIDAD DE LAS EMPRESAS DEL ESTADO DE TABASCO',
+  'San Luis Potosí: De los rebozos a la industria automotriz',
+  'Reflexiones sobre desarrollo empresarial',
+  'Tamaulipas en la I+D+I, una experiencia regional',
+  'FONDO MIXTO CONACYT - GOBIERNO DEL ESTADO DE HIDALGO CONVOCATORIA HGO-2018-03',
+  'Programa Académico de: Especialidad En Medicina Del Trabajo Y Ambiental',
+
 ];
 
   return (
