@@ -456,4 +456,69 @@ export const dataImpacto = [
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
   },
+  {
+    titulo: 'Gobierno del Estado de Veracruz. (2019). Plan Veracruzano de Desarrollo 2019 - 2024',
+    link: 'https://www.segobver.gob.mx/siptransparencia/adjuntos/20190702151156-1128574316.pdf',
+    año: 2019,
+    documento: 'Plan Veracruzano de Desarrollo 2019 - 2024',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Comisión de Selección del Comité de Participación Ciudadana del Sistema Estatal Anticorrupción Presente (Sonora). (2019). Exposición de Motivos',
+    link: 'http://intranet.congresoson.gob.mx:82/Publico/Documento/21369',
+    año: 2019,
+    documento: 'Exposición de Motivos',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado Libre y Soberano de Morelos. (2019). Periódico Oficial de Morelos: Plan Estatal de Desarrollo 2019 - 2024.',
+    link: 'https://periodico.morelos.gob.mx/periodicos/2019/5697_2A.pdf',
+    año: 2019,
+    documento: 'Morelos: Plan Estatal de Desarrollo 2019 - 2024.',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado de Veracruz. (2019). Gaceta Oficial',
+    link: 'https://www.pmaver.gob.mx/wp-content/uploads/2024/10/PVD_2019-2024-GOE-eTC-224-5Jun19.pdf',
+    año: 2019,
+    documento: 'Gaceta Oficial',
+    tipoUsuario: 'Legislativo',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del estado de Colima. INSTITUTO COLIMENSE PARA LA SOCIEDAD DE LA INFORMACIÓN Y EL CONOCIMIENTO. (2019). La Agenda Digital Colima “Impulsando la Inclusión y el Desarrollo de la Sociedad”',
+    link: 'https://periodicooficial.col.gob.mx/p/02112019/sup06/619110201.pdf',
+    año: 2019,
+    documento: 'La Agenda Digital Colima “Impulsando la Inclusión y el Desarrollo de la Sociedad”',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno del Estado de Tabasco. (2019). Informe de la Gestión Gubernamental 2019',
+    link: 'https://publicacionperiodico.tabasco.gob.mx/documento/1369/firmado_qr.pdf',
+    año: 2019,
+    documento: 'Informe de la Gestión Gubernamental 2019',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Rodríguez, E. D. (2019). La cooperación tecnológica entre start-ups de Israel y Jalisco para el fortalecimiento de la innovación y el desarrollo local del estado',
+    link: 'https://publicacionperiodico.tabasco.gob.mx/documento/1369/firmado_qr.pdf',
+    año: 2019,
+    documento: 'La cooperación tecnológica entre start-ups de Israel y Jalisco',
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 1
+  },
+  {
+    titulo: 'Gobierno de Morelos. (2019). Plan estatal de Desarrollo 2019 - 2024',
+    link: 'https://transparenciamorelos.mx/sites/default/files/plan_estatal_de_desarrollo_2019-2024_0.pdf',
+    año: 2019,
+    documento: 'Plan estatal de Desarrollo 2019 - 2024',
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 1
+  },
+  
 ];

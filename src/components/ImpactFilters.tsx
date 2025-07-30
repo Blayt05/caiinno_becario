@@ -123,6 +123,14 @@ const documentos = [
   'Tamaulipas en la I+D+I, una experiencia regional',
   'FONDO MIXTO CONACYT - GOBIERNO DEL ESTADO DE HIDALGO CONVOCATORIA HGO-2018-03',
   'Programa Académico de: Especialidad En Medicina Del Trabajo Y Ambiental',
+  'Plan Veracruzano de Desarrollo 2019 - 2024',
+  'Exposición de Motivos',
+  'Morelos: Plan Estatal de Desarrollo 2019 - 2024.',
+  'Gaceta Oficial',
+  'La Agenda Digital Colima “Impulsando la Inclusión y el Desarrollo de la Sociedad”',
+  'Informe de la Gestión Gubernamental 2019',
+  'La cooperación tecnológica entre start-ups de Israel y Jalisco',
+  'Plan estatal de Desarrollo 2019 - 2024',
 
 ];
 
