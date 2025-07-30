@@ -218,8 +218,8 @@ export const dataImpacto = [
     tipoUsuario: 'Gubernamental'
   },
   {
-    titulo: '"Universidad Autónoma “Benito Juárez” de Oaxaca. Índice Nacional de Ciencia, Tecnología e Innovación 2015',
-    link: 'https://sil.gobernacion.gob.mx/Archivos/Documentos/2022/11/asun_4436753_20221109_1664902732.pdf',
+    titulo: 'Universidad Autónoma “Benito Juárez” de Oaxaca. Índice Nacional de Ciencia, Tecnología e Innovación 2015',
+    link: 'https://transparencia.uabjo.mx/obligaciones/economia/articulo-75/fraccion-1/75-1-300-maestria-en-proyectos-productivos-sustentables-2017.pdf',
     año: 2016,
     documento: 'Índice Nacional de Ciencia 2015, UABJO',
     tipoUsuario: 'Privado/Académico'
