@@ -632,6 +632,20 @@ export const dataImpacto = [
     tipoUsuario: 'Privado/Académico',
     tipoDoc : 1
   },
+  {
+    titulo: 'Instituto Morelense de Procesos Electorales y Participación ciudadana (IMPEPAC). (2018). Plataforma Electoral Morelos 2018-2024',
+    link: 'https://impepac.mx/wp-content/uploads/2018/05/Plataforma-Morelos-PAN-perspectiva-de-género.pdf',
+    año: 2018,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del estado de Yucatán. (2018). PROGRAMA ESPECIAL: Innovación, conocimiento y tecnología',
+    link: 'https://www.yucatan.gob.mx/docs/transparencia/ped/PMP/2018-2024/6._PMP_Innovacon.pdf',
+    año: 2018,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
 
 
 ];

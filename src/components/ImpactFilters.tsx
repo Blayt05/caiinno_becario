@@ -264,7 +264,7 @@ const documentos = [
         >
           <option value="">TODOS</option>
           {tipoDocOptions.map((t, i) => (
-            <option key={i} value={t.label}>{t.label}</option>
+            <option key={i} value={t.value}>{t.label}</option>
           ))}
         </select>
 
