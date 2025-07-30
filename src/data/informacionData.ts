@@ -1080,4 +1080,46 @@ export const dataImpacto = [
     tipoUsuario: 'Gubernamental',
     tipoDoc : 2
   },
+  {
+    titulo: 'OIT; UNICEF; Andrade Baena, G. (2023). Informe sobre la brecha de género en STEM en la Formación Técnico Profesional (EFTP) en México',
+    link: 'https://www.unicef.org/mexico/media/7826/file/Informe%20sobre%20la%20brecha%20de%20g%C3%A9nero%20en%20STEM%20en%20M%C3%A9xico.pdf',
+    año: 2023,
+    tipoUsuario: 'Internacional',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Hacienda Chiapas. (2023). Evaluación del nivel de cumplimiento 2023 del plan estatal de desarrollo Chiapas 2019-2024 y programas sectoriales',
+    link: 'https://www.haciendachiapas.gob.mx/PED/Evaluacion.pdf',
+    año: 2023,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Gobierno del Estado de Durango. (2023). Plan Estatal de Desarrollo 2023 - 2028',
+    link: 'https://www.cocyted.mx/DesarrolloInstitucional/PED_2023-2028.pdf',
+    año: 2023,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Ayuntamiento de Atlixco. (2024). Ficha Técnica del Programa de Presupuesto',
+    link: 'https://atlixco.gob.mx/Documentos/PBRSED/PP/PP_2024/Programas_Modificados/PP_3.1.pdf',
+    año: 2024,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
+  {
+    titulo: 'Jiménez Ojeda, O. D., Chacón Rojas, O. (2024). Evolución, cultura cívica e investigación social: Aproximación al escenario de la educación superior en México',
+    link: 'https://www.dgip.unach.mx/publicaciones-cientificas/images/documentos/13_Evolución_cultura_cívica_e_investigación_social.pdf',
+    año: 2024,
+    tipoUsuario: 'Privado/Académico',
+    tipoDoc : 2
+  },
+   {
+    titulo: 'Gobierno de Aguascalientes. (2024). Periódico Oficial del Estado de Aguascalientes',
+    link: 'https://geaappsweb.aguascalientes.gob.mx/seplade/REOTPU/pdf/ProgMun/AGS/PM_AG1-POE.pdf',
+    año: 2024,
+    tipoUsuario: 'Gubernamental',
+    tipoDoc : 2
+  },
 ];
