@@ -262,7 +262,7 @@ const documentos = [
           onChange={e => setTipoDoc(e.target.value)}
           value={tipoDoc}
         >
-          <option value="">TODOS</option>
+          <option value="">PUBLICACIONES</option>
           {tipoDocOptions.map((t, i) => (
             <option key={i} value={t.value}>{t.label}</option>
           ))}

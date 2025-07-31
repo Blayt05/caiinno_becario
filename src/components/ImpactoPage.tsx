@@ -32,26 +32,38 @@ export default function InformacionDeReferencia() {
           Impacto
         </h1>
         <div className="prose max-w-none text-base sm:text-lg lg:prose-lg">
-          <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
-            1.- INICIATIVAS DE REFORMA DE LEY O NUEVAS LEYES
-          </h2>
 
-          <p className="mb-6 text-base sm:text-xl leading-relaxed">
-            CAIINNO ha participado activamente aportando información, datos, experiencia y conocimiento para la gestión y redacción de iniciativas de las siguientes reformas de leyes federales en México:
+           <p className="mb-6 text-base sm:text-xl leading-relaxed">
+            A continuación de muestra el impacto de CAIINNO por el tipo de usuario que ha utilizado nuestro trabajo como fuente o referencia.
           </p>
 
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
-            2.- INFORMACIÓN DE REFERENCIA PARA USO DEL SECTOR PÚBLICO NACIONAL, Y/O PARA ELABORACIÓN DE POLÍTICAS PÚBLICAS
+            1.- LEGISLATIVO
           </h2>
+
           <p className="mb-6 text-base sm:text-xl leading-relaxed">
-            CAIINNO ha realizado investigaciones y generado información, datos, experiencia y conocimiento que ha sido plasmada en publicaciones o en sus bancos de datos, mismos que han sido utilizados por el gobierno federal y locales:
+            Congresistas a nivel federal como local han utilizado los trabajos de CAIINNO como referencia para justificar reformas de ley o nuevas legislaciones.
           </p>
 
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
-            3.- FUENTE DE INFORMACIÓN PARA FUENTES ACADÉMICAS NACIONALES E INTERNACIONALES
+            2.- GUBERNAMENTAL
           </h2>
           <p className="mb-6 text-base sm:text-xl leading-relaxed">
-            CAIINNO ha realizado investigaciones y generado información, datos, experiencia y conocimiento que ha sido plasmada en publicaciones o en sus bancos de datos, mismos que han sido utilizados por investigadores en publicaciones académicas e incluso por organismos internacionales:
+            Tanto el gobierno federal como gobiernos estatales han aprovechado los trabajos de CAIINNO como referencia para sus agendas públicas, políticas públicas, e incluso para sus planes estatales de desarrollo.
+          </p>
+
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
+            3.- PRIVADO/ACADÉMICO
+          </h2>
+          <p className="mb-6 text-base sm:text-xl leading-relaxed">
+            El sector privado y otras ONGs han aprovechado el trabajo de CAIINNO como fuentes o referencias en sus proyectos e investigaciones.
+          </p>
+
+           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
+            4.- INTERNACIONAL
+          </h2>
+          <p className="mb-6 text-base sm:text-xl leading-relaxed">
+            Algunos organismos internacionales como la OCDE o el BID, han utilizado el trabajo de CAIINNO como referencia.
           </p>
 
           <ImpactFilters onChange={setFiltros} />

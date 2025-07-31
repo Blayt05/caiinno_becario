@@ -21,7 +21,8 @@ export default function Impacto() {
         </p>
         <ImpactCards/>
       </div>
-      <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-8">Premios y Reconocimientos</h2>
+      <section id="premios-reconocimientos">
+        <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-8">Premios y Reconocimientos</h2>
       <div className="space-y-16">
         {sortedImpactos.map((impacto) => (
           <div key={impacto.id}>
@@ -29,6 +30,9 @@ export default function Impacto() {
           </div>
         ))}
       </div>
+
+      </section>
+      
     </div>
   )
 }
