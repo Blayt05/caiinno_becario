@@ -156,7 +156,7 @@ export default function Home() {
             <div className="flex flex-col justify-between w-full md:w-1/2">
               <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4 text-center">PARA MEJORAR EL MUNDO</h2>
                <Image
-                src="/ImpactoImg.png"
+                src="/ImpactoImg.png" 
                 alt="¿Cómo lo hacemos?"
                 width={700}
                 height={300}
