@@ -19,7 +19,7 @@ export default function Impacto() {
         <p className="text-lg md:text-2xl mb-8 leading-relaxed font-bold">
           Para CAIINNO es clave la generación de nuevo conocimiento que sirva de base para provocar cambios positivos, pero es igual de importante que esa información se materialice en cambios concretos. Esto puede ser a través de figuras como las siguientes (por favor selecciona una opción):
         </p>
-        <ImpactCards/>
+        {/* <ImpactCards/> */}
       </div>
       <section id="premios-reconocimientos">
         <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-center mb-8">Premios y Reconocimientos</h2>
