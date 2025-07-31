@@ -38,7 +38,7 @@ export default function InformacionDeReferencia() {
           </p>
 
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">
-            1.- LEGISLATIVO
+            1. LEGISLATIVO
           </h2>
 
           <p className="mb-6 text-base sm:text-xl leading-relaxed">
