@@ -20,7 +20,7 @@ const cards = [
     title: "Premios",
     text: "Conoce los reconocimientos y premios que hemos recibido por nuestro trabajo e impacto en la comunidad.",
     image: "/impacto/impact-awards.jpg",
-    href: "/events",
+    href: "/impacto/premios",
     gradient: "bg-gradient-to-b from-[#f3c27a] via-[#d8605a] to-[#7a2530]",
   },
 ];

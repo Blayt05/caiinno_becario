@@ -4,7 +4,16 @@ import Link from 'next/link';
 import ImpactFilters from '@/components/ImpactFilters';
 import { dataImpacto } from '@/data/informacionData';
 import Image from "next/image";
+import { FaRegFilePdf } from 'react-icons/fa';
 
+// Los títulos vienen como cita: "Usuario. (Año). Título"
+function separarCita(cita: string) {
+  const match =
+    cita.match(/^(.+?)\.\s*\(\d{4}\)\.\s*(.+)$/) ?? cita.match(/^(.+?)\.\s+(.+)$/);
+  return match
+    ? { usuario: match[1].trim(), titulo: match[2].trim() }
+    : { usuario: '', titulo: cita };
+}
 
 export default function InformacionDeReferencia() {
 
@@ -121,24 +130,51 @@ export default function InformacionDeReferencia() {
 
           <ImpactFilters onChange={setFiltros} />
 
-          <ol className="space-y-8 list-decimal pl-6 text-lg">
-            {resultados.map((item, index) => (
-              <li key={index}>
-                <p className="mb-2 text-justify">{item.titulo}</p>
-                <Link
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 break-words"
-                >
-                  {item.link}
-                </Link>
-              </li>
-            ))}
-            {resultados.length === 0 && (
-              <p className="italic text-gray-500">No se encontraron resultados.</p>
-            )}
-          </ol>
+        </div>
+
+        <div className="not-prose overflow-x-auto rounded-sm shadow-xl">
+          <table className="w-full text-center text-sm sm:text-base text-gray-900">
+            <thead className="text-white font-semibold">
+              <tr>
+                <th className="bg-[#34465d] px-3 py-4">#</th>
+                <th className="bg-[#6fc3a1] px-3 py-4">Año</th>
+                <th className="bg-[#34465d] px-3 py-4">Usuario</th>
+                <th className="bg-[#6fc3a1] px-3 py-4">Título</th>
+                <th className="bg-[#34465d] px-3 py-4">pdf</th>
+              </tr>
+            </thead>
+            <tbody>
+              {resultados.map((item, index) => {
+                const { usuario, titulo } = separarCita(item.titulo);
+                return (
+                  <tr key={index} className="odd:bg-white even:bg-[#f7f7f7]">
+                    <td className="px-3 py-4 border-r border-gray-100">{index + 1}</td>
+                    <td className="px-3 py-4 border-r border-gray-100">{item.año}</td>
+                    <td className="px-4 py-4 border-r border-gray-100 min-w-[10rem]">{usuario}</td>
+                    <td className="px-4 py-4 border-r border-gray-100 min-w-[14rem]">{titulo}</td>
+                    <td className="px-3 py-4">
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`Abrir documento: ${titulo}`}
+                        className="inline-flex text-[#d32f2f] transition-transform hover:scale-110"
+                      >
+                        <FaRegFilePdf className="h-7 w-7" />
+                      </Link>
+                    </td>
+                  </tr>
+                );
+              })}
+              {resultados.length === 0 && (
+                <tr>
+                  <td colSpan={5} className="px-3 py-6 italic text-gray-500">
+                    No se encontraron resultados.
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
