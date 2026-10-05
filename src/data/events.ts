@@ -363,5 +363,44 @@ export const events: Event[] = [
         alt: 'Foto del evento 7'
       },
     ]
+  },
+  {
+    id: '17',
+    title: 'Lanzamiento del índice Nacional de Ciencia, Tecnología e Innovación',
+    date: '2025',
+    images: [
+      {
+        url: '/events/LanzamientoIndiceNacional2025/portada.jpeg',
+        alt: 'Portada'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img1.jpeg',
+        alt: 'Foto del evento 1'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img2.jpeg',
+        alt: 'Foto del evento 2'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img3.jpeg',
+        alt: 'Foto del evento 3'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img4.jpeg',
+        alt: 'Foto del evento 4'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img5.jpeg',
+        alt: 'Foto del evento 5'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img6.jpeg',
+        alt: 'Foto del evento 6'
+      },
+      {
+        url: '/events/LanzamientoIndiceNacional2025/img7.jpeg',
+        alt: 'Foto del evento 7'
+      },
+    ]
   }
 ];

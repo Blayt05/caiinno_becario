@@ -1,19 +1,18 @@
-import CarouselWithNavigation from "@/components/Carousel/carousel";
+import HeroVideo from "@/components/HeroVideo";
 import PrivacySection from "@/components/privacySection";
 import PublicationsCarousel from "@/components/Carousel/publications-carousel";
-import Image from "next/image";
 import Link from "next/link";
 import NuestroObjetivo from "@/components/NuestroObjetivo";
-import ImpactCards from "@/components/ImpactCards";
-import ImpactFilters from "@/components/ImpactFilters";
-//import ImpactoSection from "@/components/Impacto";
+import QuePretendemos from "@/components/QuePretendemos";
+import ComoLoHacemos from "@/components/ComoLoHacemos";
+import ImpactoSection from "@/components/ImpactoSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="snap-page">
       {/* Navigation Section */}
-      <section id="main" className="relative min-h-screen overflow-hidden">
-        <CarouselWithNavigation/>
+      <section id="main" className="snap-first relative h-screen overflow-hidden">
+        <HeroVideo/>
       </section>
 
 
@@ -57,7 +56,7 @@ export default function Home() {
       </section>
       */}
 
-      <section id="quienes-somos" className="relative lg:min-h-screen py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
+      <section id="quienes-somos" className="snap-screen relative min-h-screen flex items-center py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
         <img
           src="/DNA.svg"
           alt="DNA background"
@@ -109,95 +108,12 @@ export default function Home() {
 
     <NuestroObjetivo/>
 
-    <section id="que-pretendemos" className="lg:min-h-screen bg-white pb-6 sm:pb-10 pt-10 sm:pt-16 md:pt-20">
-      <div className="container mx-auto px-4 sm:px-6">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20 sm:mb-12 md:mb-16 lg:mb-20">
-          ¿QUÉ PRETENDEMOS?
-        </h2>
-        <div className="w-full flex justify-center items-center">
-          <Image
-            src="/QUEPRETENDEMOS_VS.png"
-            alt="¿Qué pretendemos?"
-            width={1400}
-            height={250}
-            priority
-            className="w-full max-w-[1400px]"
-          />
-        </div>
-      </div>
-    </section>
+    <QuePretendemos/>
 
-    <section id="como-lo-hacemos" className="lg:min-h-screen pb-0 sm:pb-10 pt-10 sm:pt-16 md:pt-20" style={{ backgroundColor: "#A2E3F5" }}>
-        <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-20">¿CÓMO LO HACEMOS?</h2>
-          <div className="w-full flex justify-center items-center">
-            <Image
-              src="/COMOLOHACEMOS_VS.png"
-              alt="¿Cómo lo hacemos?"
-              width={1400}
-              height={200}
-              priority
-              className="w-full max-w-[1400px]"
-            />
-          </div>
-        </div>
-      </section>
+    <ComoLoHacemos/>
 
+    <ImpactoSection/>
 
-
-
- 
-      <section id="impacto" className="min-h-screen bg-white py-30 px-4">
-        <div className="w-full flex justify-center items-center pb-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-0 text-center">IMPACTO</h2>
-        </div>
-        <div className="container mx-auto max-w-7xl">
-          <div className="flex flex-col md:flex-row gap-10 md:gap-20">
-            <div className="flex flex-col justify-between w-full md:w-1/2">
-              <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4 text-center">PARA MEJORAR EL MUNDO</h2>
-               <Image
-                src="/ImpactoImg.png" 
-                alt="¿Cómo lo hacemos?"
-                width={700}
-                height={300}
-                priority
-                className="w-[700px] object-cover rounded-lg mx-auto mt-20"
-              />
-              <div className="flex justify-center items-center mt-10 sm:mt-16 md:mt-20">
-                <Link
-                  href="impacto/informacion-de-referencia"
-                  className="group inline-flex items-center gap-3 px-8 py-4 sm:px-10 sm:py-5 md:px-12 md:py-6 text-base sm:text-lg md:text-xl lg:text-2xl bg-quienes-somos-button text-white font-semibold rounded-xl hover:bg-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 ease-out"
-                >
-                  Saber más
-                </Link>
-              </div>
-            </div>
-            <div className="flex flex-col justify-between w-full md:w-1/2">
-              <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4 text-center">PREMIOS</h2>
-              <Image
-                src="/Premios_Inicio.webp"
-                alt="¿Cómo lo hacemos?"
-                width={700}   
-                height={200}
-                priority
-                className="w-[450px] h-[500px] object-cover rounded-lg mx-auto"
-              />
-
-              <div className="flex justify-center items-center mt-10 sm:mt-16 md:mt-20">
-                <Link
-                  href="impacto/#premios-reconocimientos"
-                  className="group inline-flex items-center gap-3 px-8 py-4 sm:px-10 sm:py-5 md:px-12 md:py-6 text-base sm:text-lg md:text-xl lg:text-2xl bg-quienes-somos-button text-white font-semibold rounded-xl hover:bg-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 ease-out"
-                >
-                  Ver más
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-        
         <PublicationsCarousel />
         <PrivacySection/>
     </div>

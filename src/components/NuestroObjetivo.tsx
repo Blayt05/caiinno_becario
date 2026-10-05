@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const NuestroObjetivo = () => {
   return (
-    <section id="nuestro-objetivo" className="relative min-h-screen pb-10 pt-20 overflow-hidden">
+    <section id="nuestro-objetivo" className="snap-screen relative min-h-screen flex flex-col justify-center py-[5vh] overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src="/carousel/6.jpg"
@@ -26,17 +26,17 @@ const NuestroObjetivo = () => {
       </div>
       
       <div className="container mx-auto text-white relative z-10 px-4 md:px-8">
-        <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-10 md:mb-25">NUESTRO OBJETIVO</h2>
+        <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-[5vh]">NUESTRO OBJETIVO</h2>
 
-        <p className="text-xl md:text-2xl lg:text-3xl mb-20 text-justify">
+        <p className="text-xl md:text-2xl lg:text-3xl mb-[5vh] text-justify">
           Ayudar a resolver algunos de los retos que enfrenta México en 9 áreas, a través de investigaciones, propuestas y ejecución de proyectos, que permitan tener un país más transparente, incluyente e innovador. Para ello aplicamos los principios de la INNOVACIÓN así como nuestra experiencia y conocimientos.
         </p>
 
-        <p className="text-xl md:text-2xl lg:text-3xl mb-20 font-bold text-center">
+        <p className="text-xl md:text-2xl lg:text-3xl mb-[5vh] font-bold text-center">
           Además, buscamos que nuestros proyectos tengan un enfoque transversal que beneficie e impacte a las 9 áreas de trabajo:
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-6 justify-items-center mb-10 md:mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-6 justify-items-center">
             <div className="flex flex-col items-center group hover:scale-130 transition-transform duration-300 cursor-pointer">
                 <FaBalanceScale className="text-5xl md:text-6xl lg:text-7xl text-white group-hover:text-white transition-colors duration-300" />
                 <span className="text-sm mt-2 text-center font-bold group-hover:text-white transition-colors duration-300">Política pública y Estado de Derecho</span>

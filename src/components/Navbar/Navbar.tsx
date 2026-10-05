@@ -33,7 +33,7 @@ export default function Navbar() {
               <Link href="/" className="hover:underline text-center">Inicio</Link>
               <Link href="/quienes-somos" className="hover:underline text-center">¿Quiénes somos?</Link>
               <Link href="/about-us" className="hover:underline text-center">About us</Link>
-              <Link href="#areas-de-investigacion" className="hover:underline text-center">Información Estadística</Link>
+              <Link href="/informacion-estadistica" className="hover:underline text-center">Información Estadística</Link>
               <Link href="/events" className="hover:underline text-center">Eventos</Link>
               <Link href="/publicaciones" className="hover:underline text-center">Publicaciones</Link>
               <Link href="/impacto" className="hover:underline text-center">Impacto</Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <Link href="/" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>Inicio</Link>
               <Link href="/quienes-somos" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>¿Quiénes somos?</Link>
               <Link href="/about-us" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>About us</Link>
-              <Link href="#areas-de-investigacion" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>Información Estadística</Link>
+              <Link href="/informacion-estadistica" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>Información Estadística</Link>
               <Link href="/events" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>Eventos</Link>
               <Link href="/publicaciones" className="text-base hover:text-blue-600 py-2 border-b border-gray-100" onClick={() => setIsMenuOpen(false)}>Publicaciones</Link>
               <Link href="/impacto" className="text-base hover:text-blue-600 py-2" onClick={() => setIsMenuOpen(false)}>Impacto</Link>

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Mono } from "next/font/google";
+import { Montserrat, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import SecondaryNavbar from "@/components/SecondaryNavbar";
+import LayoutMetrics from "@/components/LayoutMetrics";
 
-const inter = Inter({
+const montserrat = Montserrat({
   variable: "--font-geist-sans", // Keep the same variable name for minimal CSS changes
   subsets: ["latin"],
 });
@@ -26,13 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} ${robotoMono.variable} antialiased`}
-      >
-        <Navbar/>
+    <html lang="es" className={`${montserrat.variable} ${robotoMono.variable}`}>
+      <body className="antialiased">
+        <LayoutMetrics/>
+        <div className="snap-nav">
+          <Navbar/>
+        </div>
         <SecondaryNavbar/>
-        {children}
+        <main>{children}</main>
         <Footer/>
       </body>
     </html>

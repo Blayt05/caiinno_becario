@@ -131,3 +131,289 @@ html {
     @apply bg-background text-foreground;
   }
 }
+/* Hero slogan: both phrases share one grid cell and take turns */
+.hero-slogan {
+  display: grid;
+}
+
+.hero-slogan > span {
+  grid-area: 1 / 1;
+  opacity: 0;
+  animation: hero-slogan-swap 7s ease-in-out infinite both;
+}
+
+.hero-slogan > span:nth-child(2) {
+  animation-delay: 3.5s;
+}
+
+@keyframes hero-slogan-swap {
+  0% {
+    opacity: 0;
+    transform: translateY(0.4em);
+    filter: blur(8px);
+  }
+  10%,
+  40% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  50%,
+  100% {
+    opacity: 0;
+    transform: translateY(-0.4em);
+    filter: blur(8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slogan > span {
+    animation-name: hero-slogan-fade;
+  }
+
+  @keyframes hero-slogan-fade {
+    0%, 50%, 100% { opacity: 0; }
+    10%, 40% { opacity: 1; }
+  }
+}
+
+/* Full-screen sections: on pages wrapped in .snap-page every section fills
+   the viewport and scrolling stops at one section at a time.
+   --nav-h / --footer-h are kept in sync by <LayoutMetrics />. */
+:root {
+  --nav-h: 176px;
+  --footer-h: 480px;
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --nav-h: 192px;
+  }
+}
+
+@media (min-width: 1024px) and (min-height: 700px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  .snap-nav {
+    scroll-snap-align: start;
+  }
+
+  .snap-screen,
+  .snap-first,
+  .snap-last {
+    overflow: hidden;
+  }
+
+  .snap-screen {
+    height: 100svh;
+    min-height: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  /* First section: shares the first screen with the navbar */
+  .snap-first {
+    height: calc(100svh - var(--nav-h));
+    min-height: 0;
+  }
+
+  /* Last section: shares the last screen with the footer */
+  .snap-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100svh - var(--footer-h));
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  /* Sections whose content can be taller than the screen: they fill at least
+     one screen and, when taller, scroll freely until their end is reached. */
+  .snap-fill {
+    min-height: calc(100svh - var(--nav-h));
+    scroll-snap-align: end;
+  }
+
+  .snap-block {
+    min-height: 100svh;
+    scroll-snap-align: start;
+  }
+
+  /* Pages without sections: the whole content is one screen under the navbar */
+  main:not(:has(.snap-page)) {
+    min-height: calc(100svh - var(--nav-h));
+    scroll-snap-align: end;
+  }
+
+  /* A video card that is the first section fits under the navbar */
+  .snap-first .video-fit {
+    max-width: min(64rem, calc((100svh - var(--nav-h) - 5rem) * 16 / 9));
+  }
+
+  footer {
+    scroll-snap-align: end;
+  }
+}
+
+/* ¿Qué pretendemos?: circles orbit the disc (they keep spinning while hovered) */
+.orbit {
+  --orbit-size: clamp(240px, min(38vh, 78vw), 440px);
+  --bubble-size: calc(var(--orbit-size) * 0.26);
+  width: var(--orbit-size);
+  height: var(--orbit-size);
+}
+
+.orbit-disc {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  /* Rim: cyan at the top-left, blue on the left, light blue on the right */
+  background: conic-gradient(
+    from 0deg,
+    #8fd8fa 0deg,
+    #96cdfb 90deg,
+    #86e0f6 140deg,
+    #7ac0fa 190deg,
+    #6fb2fb 240deg,
+    #74bcfb 285deg,
+    #7fe5f8 320deg,
+    #8fd8fa 360deg
+  );
+  box-shadow: 0 30px 60px -18px rgb(90 105 160 / 0.55);
+}
+
+.orbit-disc::before {
+  content: "";
+  position: absolute;
+  inset: 3%;
+  border-radius: 9999px;
+  border: 1px solid rgb(255 255 255 / 0.4);
+  background: linear-gradient(135deg, #a5eefa 0%, #a3e8fa 38%, #a8d6fc 62%, #a3e9f8 100%);
+}
+
+.orbit-disc::after {
+  content: "";
+  position: absolute;
+  inset: 5%;
+  border-radius: 9999px;
+  border: 1.5px dashed rgb(255 255 255 / 0.65);
+}
+
+.orbit-ring {
+  position: absolute;
+  inset: 0;
+  animation: orbit-spin 40s linear infinite;
+}
+
+.orbit-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: rotate(var(--angle)) translateY(calc(var(--orbit-size) * var(--radius, 0.47) * -1)) rotate(calc(var(--angle) * -1));
+}
+
+.orbit-item:has(.orbit-content:hover, .orbit-content:focus) {
+  z-index: 20;
+}
+
+.orbit-counter {
+  width: 0;
+  height: 0;
+  animation: orbit-spin 40s linear infinite reverse;
+}
+
+.orbit-content {
+  position: absolute;
+  top: calc(var(--bubble-size) / -2);
+  left: 0;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  cursor: pointer;
+  outline: none;
+}
+
+.orbit-bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--bubble-size);
+  height: var(--bubble-size);
+  border-radius: 9999px;
+  background: linear-gradient(145deg, #ffffff, #f1f5ff);
+  box-shadow: 0 12px 28px -6px rgb(70 90 150 / 0.45);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orbit-tooltip {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  left: 50%;
+  width: 14rem;
+  max-width: 70vw;
+  padding: 0.85rem 1rem;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgb(30 58 138 / 0.2);
+  color: #475569;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, -6px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.orbit-tooltip::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.orbit-content:hover .orbit-bubble,
+.orbit-content:focus .orbit-bubble {
+  transform: scale(1.12);
+  background: linear-gradient(145deg, #e3f1ff, #d6ebfd);
+  box-shadow: 0 0 0 3px #ffffff, 0 12px 28px rgb(30 58 138 / 0.28);
+}
+
+.orbit-content:hover .orbit-tooltip,
+.orbit-content:focus .orbit-tooltip {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit-ring,
+  .orbit-counter {
+    animation: none;
+  }
+}
+
+/* ¿Cómo lo hacemos?: dotted backdrop */
+.como-dots {
+  background-color: #f4f8ff;
+  background-image:
+    radial-gradient(circle, rgb(148 163 184 / 0.18) 12px, transparent 13px),
+    linear-gradient(135deg, #f8faff 0%, #eef4ff 60%, #effcff 100%);
+  background-size: 128px 128px, 100% 100%;
+  background-position: center top;
+}

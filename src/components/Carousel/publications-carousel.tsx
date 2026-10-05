@@ -17,8 +17,8 @@ export default function PublicationsCarousel() {
   )
 
   return (
-    <div className="relative w-full overflow-hidden bg-slate-100 py-10" >
-      <div className="container mx-auto">
+    <div className="snap-screen relative w-full overflow-hidden bg-slate-100 py-10 flex flex-col justify-center">
+      <div className="container mx-auto w-full">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">PUBLICACIONES</h2>
         <Carousel
           className="w-full"

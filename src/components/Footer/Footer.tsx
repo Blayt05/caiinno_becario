@@ -80,7 +80,7 @@ export default function Footer() {
               <h2 className="text-xl md:text-2xl font-bold mb-4">Otros</h2>
               <ul className="space-y-2 text-sm md:text-base">
                 <li>
-                  <Link href="#" className="hover:underline">
+                  <Link href="/informacion-estadistica" className="hover:underline">
                     Información Estadística
                   </Link>
                 </li>

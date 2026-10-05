@@ -3,7 +3,7 @@ import { BsFillSignStopFill } from "react-icons/bs";
 
 export default function PrivacySection() {
   return (
-    <div className="bg-gray-100 py-6 px-4 border-t border-gray-200">
+    <div className="snap-last bg-gray-100 py-6 px-4 border-t border-gray-200">
       <Link 
         href="/aviso-de-privacidad" 
         className="flex flex-col items-center gap-2 group hover:bg-gray-200 transition-colors p-4 rounded-lg"
