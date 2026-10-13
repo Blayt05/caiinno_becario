@@ -8,7 +8,7 @@ import React from 'react'
 export default function QuienesSomos() {
   return (
     <div className="snap-page">
-    <VideoCard id="0DRcerJtk_c" />
+    <VideoCard id="oTJnEjA-3Po" />
 
     <QuePretendemos />
     <ComoLoHacemos />

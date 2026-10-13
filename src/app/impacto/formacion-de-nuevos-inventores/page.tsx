@@ -88,7 +88,7 @@ export default function FormacionDeNuevosInventores() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex h-full items-center justify-center px-4">
           <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight">
-            FORMACIÓN DE<br />NUEVOS INVENTORES
+            FORMACIÓN DE<br />NUEVOS INVENTORES E INVENTORAS
           </h1>
         </div>
       </section>

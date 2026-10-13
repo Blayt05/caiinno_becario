@@ -14,6 +14,7 @@ type Props = {
     tipoUsuario: string;
     tipoDoc : string;
   }) => void;
+  años: number[];
 };
 
 const tiposUsuario = [
@@ -25,7 +26,7 @@ const tiposUsuario = [
 
 
 
-const ImpactFilters = ({ onChange }: Props) => {
+const ImpactFilters = ({ onChange, años: listaAños }: Props) => {
   const [añosSeleccionados, setAñosSeleccionados] = useState<{ value: string; label: string }[]>([]);
   const [documento, setDocumento] = useState('');
   const [tipoUsuario, setTipoUsuario] = useState('');
@@ -57,15 +58,7 @@ const ImpactFilters = ({ onChange }: Props) => {
 //   '2020'
 // ];
 
-const años = [
-  { value: '2015', label: '2015' },
-  { value: '2016', label: '2016' },
-  { value: '2017', label: '2017' },
-  { value: '2018', label: '2018' },
-  { value: '2019', label: '2019' },
-  { value: '2020', label: '2020' },
-  { value: '2022', label: '2022' },
-];
+const años = listaAños.map(a => ({ value: a.toString(), label: a.toString() }));
 const documentos = [
   'Información Económica Estatal - Aguascalientes',
   'Información Económica Estatal - Baja California',

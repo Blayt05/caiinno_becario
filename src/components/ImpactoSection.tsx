@@ -10,7 +10,7 @@ const cards = [
     gradient: "bg-gradient-to-r from-[#8fd6e6] to-[#2f4fb0]",
   },
   {
-    title: "Formación de nuevos inventores",
+    title: "Formación de nuevos inventores e inventoras",
     text: "Conoce cómo desde CAIINNO formamos a los inventores del mañana.",
     image: "/impacto/impact-innovation.png",
     href: "/impacto/formacion-de-nuevos-inventores",

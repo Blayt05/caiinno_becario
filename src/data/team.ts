@@ -38,16 +38,6 @@
             "Se ha desempeñado como Coordinador de Proyecto en el Programa de las Naciones Unidas para el Desarrollo (PNUD), así como en diversos cargos en el Tribunal Electoral del Poder Judicial de la Federación (TEPJF), entre ellos fungió como Secretario Auxiliar y como asesor en la Coordinación General de Asesores de Presidencia. Ha colaborado con instituciones como el Centro Internacional de Justicia Transicional (ICTJ) y se desempeñó como Asesor en la Sexta Comisión de la Misión Permanente de México ante las Naciones Unidas."
           ]
         }
-      ],
-      juniorResearchers: [
-        {
-          name: "Carlos Castro",
-          title: "",
-          bio: [
-            "Economista por la Universidad Autónoma del Estado de Hidalgo con énfasis en Desarrollo Tecnológico e Industrial. Actualmente trabajo como responsable de investigación económica para el Centro de Análisis para la Investigación en Innovación. Cuenta con una certificación en ciencia de datos por el Instituto Internacional de Ciencia de Datos y varios cursos sobre temas de machine learning, modelos predictivos y salud pública.",
-            "En este ámbito, ha colaborado en investigaciones sobre propiedad intelectual, economía creativa, educación cívica e impactos de la innovación en México. Ha participado en proyectos como monitoreo de la aplicación efectiva de tarifas en el transporte público, modelos para predecir el nivel de riesgo en sectores como el de la salud y las finanzas, así como reportar el avance diario que tiene el coronavirus en el país. A su vez cuenta con cursos y participaciones de ponencia en temas como salud digital, movilidad urbana, desarrollo de software y emprendimiento."
-          ]
-        }
       ]
     },
     english: {
@@ -87,16 +77,6 @@
           bio: [
             "Master of Laws (LL.M.) from Columbia University in New York City and Law Degree from UNAM. Former Fulbright-García Robles scholar. Currently an Adjunct Professor at UNAM's Law School and Legal Consultant in Electoral Matters.",
             "He has served as Project Coordinator at the United Nations Development Programme (UNDP), as well as in various positions at the Electoral Court of the Federal Judiciary (TEPJF), including as Auxiliary Secretary and advisor in the General Coordination of Presidential Advisors. He has collaborated with institutions such as the International Center for Transitional Justice (ICTJ) and served as Advisor to the Sixth Committee of Mexico's Permanent Mission to the United Nations."
-          ]
-        }
-      ],
-      juniorResearchers: [
-        {
-          name: "Carlos Castro",
-          title: "",
-          bio: [
-            "Economist from the Universidad Autónoma del Estado de Hidalgo with an emphasis on Technological and Industrial Development. Currently working as Head of Economic Research for the Center for Analysis of Research in Innovation. Certified in Data Science by the International Data Science Institute with several courses on machine learning, predictive models, and public health.",
-            "In this field, he has collaborated on research about intellectual property, creative economy, civic education, and impacts of innovation in Mexico. He has participated in projects such as monitoring effective fare implementation in public transportation, models to predict risk levels in sectors like health and finance, as well as reporting the daily progress of coronavirus in the country. He also has courses and speaking engagements on topics like digital health, urban mobility, software development, and entrepreneurship."
           ]
         }
       ]

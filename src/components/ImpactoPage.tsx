@@ -6,15 +6,6 @@ import { dataImpacto } from '@/data/informacionData';
 import Image from "next/image";
 import { FaRegFilePdf } from 'react-icons/fa';
 
-// Los títulos vienen como cita: "Usuario. (Año). Título"
-function separarCita(cita: string) {
-  const match =
-    cita.match(/^(.+?)\.\s*\(\d{4}\)\.\s*(.+)$/) ?? cita.match(/^(.+?)\.\s+(.+)$/);
-  return match
-    ? { usuario: match[1].trim(), titulo: match[2].trim() }
-    : { usuario: '', titulo: cita };
-}
-
 export default function InformacionDeReferencia() {
 
   const [filtros, setFiltros] = useState<{
@@ -31,7 +22,7 @@ export default function InformacionDeReferencia() {
 
   const resultados = dataImpacto.filter(item =>
     (filtros.año.length === 0 || filtros.año.includes(item.año.toString())) &&
-    (filtros.documento === '' || item.documento === filtros.documento) &&
+    (filtros.documento === '' || item.titulo === filtros.documento) &&
     (filtros.tipoUsuario === '' || item.tipoUsuario === filtros.tipoUsuario) &&
     (filtros.tipoDoc === '' || item.tipoDoc?.toString() === filtros.tipoDoc)
   );
@@ -128,7 +119,7 @@ export default function InformacionDeReferencia() {
 
 
 
-          <ImpactFilters onChange={setFiltros} />
+          <ImpactFilters onChange={setFiltros} años={[...new Set(dataImpacto.map(item => item.año))].sort()} />
 
         </div>
 
@@ -145,7 +136,7 @@ export default function InformacionDeReferencia() {
             </thead>
             <tbody>
               {resultados.map((item, index) => {
-                const { usuario, titulo } = separarCita(item.titulo);
+                const { usuario, titulo } = item;
                 return (
                   <tr key={index} className="odd:bg-white even:bg-[#f7f7f7]">
                     <td className="px-3 py-4 border-r border-gray-100">{index + 1}</td>
@@ -153,6 +144,7 @@ export default function InformacionDeReferencia() {
                     <td className="px-4 py-4 border-r border-gray-100 min-w-[10rem]">{usuario}</td>
                     <td className="px-4 py-4 border-r border-gray-100 min-w-[14rem]">{titulo}</td>
                     <td className="px-3 py-4">
+                      {item.link && (
                       <Link
                         href={item.link}
                         target="_blank"
@@ -162,6 +154,7 @@ export default function InformacionDeReferencia() {
                       >
                         <FaRegFilePdf className="h-7 w-7" />
                       </Link>
+                      )}
                     </td>
                   </tr>
                 );

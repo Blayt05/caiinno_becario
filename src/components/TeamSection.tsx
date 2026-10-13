@@ -10,16 +10,11 @@ interface TeamSectionProps {
 
 export default function TeamSection({ language }: TeamSectionProps) {
   const [activeMember, setActiveMember] = useState<number | null>(null);
-  const [activeResearcher, setActiveResearcher] = useState<number | null>(null);
 
-  const { teamMembers, juniorResearchers } = teamData[language];
+  const { teamMembers } = teamData[language];
 
   const toggleMember = (index: number) => {
     setActiveMember(activeMember === index ? null : index);
-  };
-
-  const toggleResearcher = (index: number) => {
-    setActiveResearcher(activeResearcher === index ? null : index);
   };
 
   const renderMemberDropdown = (
@@ -76,16 +71,6 @@ export default function TeamSection({ language }: TeamSectionProps) {
       <div className="space-y-2">
         {teamMembers.map((member, index) =>
           renderMemberDropdown(member, index, activeMember === index, toggleMember)
-        )}
-      </div>
-
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-16 mb-8">
-        {language === 'spanish' ? 'Investigadores Junior' : 'Junior Researchers'}
-      </h2>
-
-      <div className="space-y-2">
-        {juniorResearchers.map((researcher, index) =>
-          renderMemberDropdown(researcher, index, activeResearcher === index, toggleResearcher)
         )}
       </div>
     </div>

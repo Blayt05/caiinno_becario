@@ -6,5 +6,4 @@ export interface TeamMember {
   
 export interface TeamData {
     teamMembers: TeamMember[];
-    juniorResearchers: TeamMember[];
 }
